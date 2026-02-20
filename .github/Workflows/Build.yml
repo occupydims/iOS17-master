@@ -1,0 +1,52 @@
+name: Build APK
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: iOS17-master
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 11
+        uses: actions/setup-java@v4
+        with:
+          java-version: '11'
+          distribution: 'temurin'
+
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install Android SDK components
+        run: sdkmanager "platforms;android-32" "build-tools;32.0.0" "platform-tools"
+        working-directory: .
+
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+
+      - name: Configure signing for CI
+        run: |
+          echo "keyStorePath=/keystore/platform.keystore" > local.properties
+          echo "keyStorePassword=android" >> local.properties
+          echo "keyAlias=platform" >> local.properties
+          echo "keyPassword=android" >> local.properties
+
+      - name: Build debug APKs
+        run: ./gradlew assembleApiQDebug assembleApiRDebug assembleApiSDebug
+
+      - name: Upload APK artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-apks
+          path: iOS17-master/app/build/outputs/apk/*/debug/*.apk
+          retention-days: 30
