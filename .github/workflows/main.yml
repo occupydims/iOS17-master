@@ -43,9 +43,10 @@ jobs:
 
       - name: Configure CI environment
         run: |
-          echo "keyStorePath=/keystore/platform.keystore" > local.properties
+          keytool -genkey -v -keystore ci-keystore.jks -alias ci -keyalg RSA -keysize 2048 -validity 10000 -storepass android -keypass android -dname "CN=CI Build"
+          echo "keyStorePath=/ci-keystore.jks" > local.properties
           echo "keyStorePassword=android" >> local.properties
-          echo "keyAlias=platform" >> local.properties
+          echo "keyAlias=ci" >> local.properties
           echo "keyPassword=android" >> local.properties
 
           mkdir -p ~/.gradle
@@ -77,14 +78,14 @@ jobs:
           }
           INITSCRIPT
 
-      - name: Build arm64 debug APKs
-        run: ./gradlew --init-script arm64-filter.gradle assembleApiQDebug assembleApiRDebug assembleApiSDebug
+      - name: Build arm64 release APKs
+        run: ./gradlew --init-script arm64-filter.gradle assembleApiQRelease assembleApiRRelease assembleApiSRelease
 
       - name: Upload APK artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: debug-apks
-          path: app/build/outputs/apk/*/debug/*.apk
+          name: release-apks
+          path: app/build/outputs/apk/*/release/*.apk
           retention-days: 30
 
       - name: Prepare APKs for release
@@ -101,6 +102,6 @@ jobs:
           tag_name: build-${{ github.run_number }}
           name: Build #${{ github.run_number }}
           body: |
-            Automated arm64 debug APK build from commit ${{ github.sha }}
+            Automated arm64 release APK build from commit ${{ github.sha }}
           files: release-apks/*.apk
           make_latest: true
