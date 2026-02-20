@@ -68,6 +68,9 @@ jobs:
                       }
                   }
               }
+              configurations.configureEach {
+                  exclude group: 'com.amitshekhar.android', module: 'debug-db'
+              }
           }
           INITSCRIPT
 
