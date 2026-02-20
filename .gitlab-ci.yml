@@ -1,0 +1,44 @@
+image: "registry.gitlab.e.foundation/e/os/docker-android-apps-cicd:latest"
+
+variables:
+  SENTRY_DSN: ${SENTRY_DSN}
+
+stages:
+  - check
+  - build
+
+before_script:
+  - export GRADLE_USER_HOME=$(pwd)/.gradle
+  - chmod +x ./gradlew
+
+cache:
+  key: ${CI_PROJECT_ID}
+  paths:
+    - .gradle/
+
+spotless:
+  stage: check
+  script:
+    - ./gradlew spotlessCheck
+
+lint:
+  stage: check
+  script:
+    - ./gradlew lint
+
+test:
+  stage: build
+  script:
+    - ./gradlew test
+  needs: [ "spotless", "lint" ]
+
+build:
+  stage: build
+  script:
+    - ./gradlew assembleRelease
+  needs: [ "spotless", "lint" ]
+  artifacts:
+    paths:
+      - app/build/outputs/apk
+  before_script:
+    - sed -i 's/DEFAULT_OWM_KEY/'${DEFAULT_OWM_KEY}'/g' app/src/main/res/values/strings.xml
