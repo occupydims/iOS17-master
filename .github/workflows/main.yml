@@ -53,4 +53,31 @@ jobs:
           org.gradle.jvmargs=-Xmx2g -XX:+HeapDumpOnOutOfMemoryError
           PROPS
 
-      - name: Create
+      - name: Create arm64-only Gradle init script
+        run: |
+          cat > arm64-filter.gradle << 'INITSCRIPT'
+          allprojects {
+              afterEvaluate {
+                  if (plugins.hasPlugin("com.android.application") || plugins.hasPlugin("com.android.library")) {
+                      android {
+                          defaultConfig {
+                              ndk {
+                                  abiFilters.clear()
+                                  abiFilters.add("arm64-v8a")
+                              }
+                          }
+                      }
+                  }
+              }
+          }
+          INITSCRIPT
+
+      - name: Build arm64 debug APKs
+        run: ./gradlew --init-script arm64-filter.gradle assembleApiQDebug assembleApiRDebug assembleApiSDebug
+
+      - name: Upload APK artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-apks
+          path: app/build/outputs/apk/*/debug/*.apk
+          retention-days: 30
