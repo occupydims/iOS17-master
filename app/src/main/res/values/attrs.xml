@@ -98,7 +98,11 @@
     </attr>
     <attr name="constraint_referenced_tags" format="string" />
     <attr name="container" format="string" />
-    <attr name="containerType" format="integer" />
+    <attr name="containerType" format="integer">
+        <enum name="workspace" value="0" />
+        <enum name="folder" value="1" />
+        <enum name="hotseat" value="2" />
+    </attr>
     <attr name="contentLayout" format="reference" />
     <attr name="contentView" format="reference" />
     <attr name="customBackground" format="color" />
@@ -171,7 +175,11 @@
     <attr name="hideDivider" format="boolean" />
     <attr name="hideIconChecked" format="boolean" />
     <attr name="iconAction" format="reference" />
-    <attr name="iconDisplay" format="integer" />
+    <attr name="iconDisplay" format="integer">
+        <enum name="folder" value="0" />
+        <enum name="all_apps" value="1" />
+        <enum name="shortcut_popup" value="2" />
+    </attr>
     <attr name="iconId" format="integer" />
     <attr name="iconSizeOverride" format="dimension" />
     <attr name="ifTagNotSet" format="reference" />
