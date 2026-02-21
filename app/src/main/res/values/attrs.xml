@@ -5,9 +5,6 @@
     <attr name="action" format="string" />
     <attr name="activityAction" format="string" />
     <attr name="activityName" format="string" />
-    <attr name="adSize" format="string" />
-    <attr name="adSizes" format="string" />
-    <attr name="adUnitId" format="string" />
     <attr name="allAppsInterimScrimAlpha" format="integer" />
     <attr name="allAppsNavBarScrimColor" format="color" />
     <attr name="allAppsScrimColor" format="color" />
@@ -46,7 +43,6 @@
     <attr name="border" format="boolean" />
     <attr name="borderRound" format="dimension" />
     <attr name="borderRoundPercent" format="float" />
-    <attr name="buttonSize" format="reference" />
     <attr name="canLeftSwipe" format="boolean" />
     <attr name="canRightSwipe" format="boolean" />
     <attr name="canThumbDetach" format="boolean" />
@@ -68,7 +64,6 @@
     <attr name="carousel_touchUp_velocityThreshold" format="float" />
     <attr name="centerVertically" format="boolean" />
     <attr name="checked" format="boolean" />
-    <attr name="circleCrop" format="boolean" />
     <attr name="circularflow_angles" format="string" />
     <attr name="circularflow_defaultAngle" format="float" />
     <attr name="circularflow_defaultRadius" format="dimension" />
@@ -82,7 +77,6 @@
     <attr name="colorFillSelected" format="reference" />
     <attr name="colorFillUnselected" format="reference" />
     <attr name="colorInActive" format="color" />
-    <attr name="colorScheme" format="reference" />
     <attr name="colorStepActive" format="color" />
     <attr name="colorStepInAcive" format="color" />
     <attr name="colorStrokeSelected" format="reference" />
@@ -184,12 +178,6 @@
     <attr name="iconSizeOverride" format="dimension" />
     <attr name="ifTagNotSet" format="reference" />
     <attr name="ifTagSet" format="reference" />
-    <attr name="imageAspectRatio" format="float" />
-    <attr name="imageAspectRatioAdjust">
-        <enum name="none" value="0" />
-        <enum name="adjust_width" value="1" />
-        <enum name="adjust_height" value="2" />
-    </attr>
     <attr name="imagePanX" format="float" />
     <attr name="imagePanY" format="float" />
     <attr name="imageRotate" format="float" />
@@ -226,41 +214,8 @@
     <attr name="leftView" format="reference" />
     <attr name="lightnessSlider" format="boolean" />
     <attr name="lightnessSliderView" format="reference" />
-    <attr name="lottieAnimationViewStyle" format="reference" />
     <attr name="lottie_applyOpacityToLayers" format="boolean" />
     <attr name="lottie_applyShadowToLayers" format="boolean" />
-    <attr name="lottie_asyncUpdates">
-        <enum name="automatic" value="0" />
-        <enum name="enabled" value="1" />
-        <enum name="disabled" value="2" />
-    </attr>
-    <attr name="lottie_autoPlay" format="boolean" />
-    <attr name="lottie_cacheComposition" format="boolean" />
-    <attr name="lottie_clipTextToBoundingBox" format="boolean" />
-    <attr name="lottie_clipToCompositionBounds" format="boolean" />
-    <attr name="lottie_colorFilter" format="color" />
-    <attr name="lottie_defaultFontFileExtension" format="string" />
-    <attr name="lottie_enableMergePathsForKitKatAndAbove" format="boolean" />
-    <attr name="lottie_fallbackRes" format="reference" />
-    <attr name="lottie_fileName" format="string" />
-    <attr name="lottie_ignoreDisabledSystemAnimations" format="boolean" />
-    <attr name="lottie_imageAssetsFolder" format="string" />
-    <attr name="lottie_loop" format="boolean" />
-    <attr name="lottie_progress" format="float" />
-    <attr name="lottie_rawRes" format="reference" />
-    <attr name="lottie_renderMode">
-        <enum name="automatic" value="0" />
-        <enum name="hardware" value="1" />
-        <enum name="software" value="2" />
-    </attr>
-    <attr name="lottie_repeatCount" format="integer" />
-    <attr name="lottie_repeatMode">
-        <enum name="restart" value="1" />
-        <enum name="reverse" value="2" />
-    </attr>
-    <attr name="lottie_speed" format="float" />
-    <attr name="lottie_url" format="string" />
-    <attr name="lottie_useCompositionFrameRate" format="boolean" />
     <attr name="methodName" format="string" />
     <attr name="mimeType" format="string" />
     <attr name="motionEffect_alpha" format="float" />
@@ -361,7 +316,6 @@
     <attr name="rsb_trackSelectedThickness" format="dimension" />
     <attr name="rsb_trackThickness" format="dimension" />
     <attr name="scaleFromTextSize" format="dimension" />
-    <attr name="scopeUris" format="reference|string" />
     <attr name="screen" format="string" />
     <attr name="scrollingPagerIndicatorStyle" format="reference|string|integer|boolean|color|float|dimension|fraction" />
     <attr name="secondaryActivityAction" format="string" />
@@ -386,37 +340,6 @@
     <attr name="shadow_radius" format="dimension" />
     <attr name="shadow_x_offset" format="dimension" />
     <attr name="shadow_y_offset" format="dimension" />
-    <attr name="shimmer_auto_start" format="boolean" />
-    <attr name="shimmer_base_alpha" format="float" />
-    <attr name="shimmer_base_color" format="color" />
-    <attr name="shimmer_clip_to_children" format="boolean" />
-    <attr name="shimmer_colored" format="boolean" />
-    <attr name="shimmer_direction">
-        <enum name="left_to_right" value="0" />
-        <enum name="top_to_bottom" value="1" />
-        <enum name="right_to_left" value="2" />
-        <enum name="bottom_to_top" value="3" />
-    </attr>
-    <attr name="shimmer_dropoff" format="float" />
-    <attr name="shimmer_duration" format="integer" />
-    <attr name="shimmer_fixed_height" format="dimension" />
-    <attr name="shimmer_fixed_width" format="dimension" />
-    <attr name="shimmer_height_ratio" format="float" />
-    <attr name="shimmer_highlight_alpha" format="float" />
-    <attr name="shimmer_highlight_color" format="color" />
-    <attr name="shimmer_intensity" format="float" />
-    <attr name="shimmer_repeat_count" format="integer" />
-    <attr name="shimmer_repeat_delay" format="integer" />
-    <attr name="shimmer_repeat_mode">
-        <enum name="restart" value="1" />
-        <enum name="reverse" value="2" />
-    </attr>
-    <attr name="shimmer_shape">
-        <enum name="linear" value="0" />
-        <enum name="radial" value="1" />
-    </attr>
-    <attr name="shimmer_tilt" format="float" />
-    <attr name="shimmer_width_ratio" format="float" />
     <attr name="showBottomDivider" format="boolean" />
     <attr name="showDivider" format="boolean" />
     <attr name="showMarker" format="boolean" />
