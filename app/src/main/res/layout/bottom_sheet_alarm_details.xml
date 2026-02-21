@@ -91,8 +91,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/label"
                 app:layout_constraintWidth_percent="0.3333"
-                app:wheelCyclic="true"
-                app:wheelEntries="@array/hours_alarm"
                 style="@style/DatePickerStyle" />
             <com.truelib.common.view.wheel.Wheel3DView
                 android:id="@id/wv_min"
@@ -102,8 +100,6 @@
                 app:layout_constraintStart_toEndOf="@id/wv_hour"
                 app:layout_constraintTop_toBottomOf="@id/label"
                 app:layout_constraintWidth_percent="0.3333"
-                app:wheelCyclic="true"
-                app:wheelEntries="@array/minute_second_alarm"
                 style="@style/DatePickerStyle" />
             <LinearLayout
                 android:orientation="vertical"
