@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
     <style name="AdInspectorActivityTheme" parent="@android:style/Theme.Translucent">
-        <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
     </style>
     <style name="AdsMaInline">
         <item name="android:textSize">10.0dip</item>
@@ -88,10 +87,6 @@
     <style name="Animation.Design.BottomSheetDialog" parent="@style/Animation.AppCompat.Dialog">
         <item name="android:windowEnterAnimation">@anim/design_bottom_sheet_slide_in</item>
         <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
-    </style>
-    <style name="AppBottomSheetDialogTheme" parent="@style/Theme.Design.Light.BottomSheetDialog">
-        <item name="android:maxWidth">@dimen/widget_bottom_sheet_max_width</item>
-        <item name="bottomSheetStyle">@style/AppModalStyle</item>
     </style>
     <style name="AppModalStyle" parent="@style/Widget.Design.BottomSheet.Modal">
         <item name="android:background">@drawable/bg_dialog_bottom_sheet</item>
@@ -437,17 +432,6 @@
     </style>
     <style name="Base.V14.ThemeOverlay.MaterialComponents.Dialog.Alert" parent="@style/ThemeOverlay.AppCompat.Dialog.Alert">
         <item name="buttonBarButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog.Flush</item>
-    </style>
-    <style name="Base.V14.ThemeOverlay.MaterialComponents.MaterialAlertDialog" parent="@style/ThemeOverlay.AppCompat.Dialog.Alert">
-        <item name="android:backgroundDimAmount">@dimen/m3_comp_scrim_container_opacity</item>
-        <item name="android:checkedTextViewStyle">@style/Widget.MaterialComponents.CheckedTextView</item>
-        <item name="alertDialogStyle">@style/MaterialAlertDialog.MaterialComponents</item>
-        <item name="buttonBarButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
-        <item name="buttonBarNegativeButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
-        <item name="buttonBarNeutralButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog.Flush</item>
-        <item name="buttonBarPositiveButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
-        <item name="materialAlertDialogBodyTextStyle">@style/MaterialAlertDialog.MaterialComponents.Body.Text</item>
-        <item name="materialAlertDialogButtonSpacerVisibility">@integer/mtrl_view_invisible</item>
     </style>
     <style name="Base.V14.Widget.MaterialComponents.AutoCompleteTextView" parent="@style/Widget.AppCompat.AutoCompleteTextView">
         <item name="android:textAppearance">?textAppearanceSubtitle1</item>
@@ -1174,22 +1158,6 @@
     <style name="Base.Widget.MaterialComponents.PopupMenu.Overflow" parent="@style/Widget.AppCompat.PopupMenu.Overflow">
         <item name="android:dropDownVerticalOffset">1.0px</item>
     </style>
-    <style name="Base.Widget.MaterialComponents.Slider" parent="@android:style/Widget">
-        <item name="haloColor">@color/material_slider_halo_color</item>
-        <item name="haloRadius">@dimen/mtrl_slider_halo_radius</item>
-        <item name="labelStyle">@style/Widget.MaterialComponents.Tooltip</item>
-        <item name="minSeparation">0.0dip</item>
-        <item name="thumbColor">@color/material_slider_thumb_color</item>
-        <item name="thumbElevation">@dimen/mtrl_slider_thumb_elevation</item>
-        <item name="thumbRadius">@dimen/mtrl_slider_thumb_radius</item>
-        <item name="tickColorActive">@color/material_slider_active_tick_marks_color</item>
-        <item name="tickColorInactive">@color/material_slider_inactive_tick_marks_color</item>
-        <item name="tickRadiusActive">@dimen/mtrl_slider_tick_radius</item>
-        <item name="tickRadiusInactive">@dimen/mtrl_slider_tick_radius</item>
-        <item name="trackColorActive">@color/material_slider_active_track_color</item>
-        <item name="trackColorInactive">@color/material_slider_inactive_track_color</item>
-        <item name="trackHeight">@dimen/mtrl_slider_track_height</item>
-    </style>
     <style name="Base.Widget.MaterialComponents.Snackbar" parent="@style/Widget.Design.Snackbar">
         <item name="android:paddingLeft">@dimen/mtrl_snackbar_padding_horizontal</item>
         <item name="android:paddingRight">@dimen/mtrl_snackbar_padding_horizontal</item>
@@ -1208,44 +1176,6 @@
         <item name="enforceMaterialTheme">true</item>
         <item name="enforceTextAppearance">true</item>
         <item name="textInputLayoutFocusedRectEnabled">true</item>
-    </style>
-    <style name="Base.Widget.MaterialComponents.TextInputLayout" parent="@style/Widget.Design.TextInputLayout">
-        <item name="android:textColorHint">@color/mtrl_indicator_text_color</item>
-        <item name="android:maxWidth">@dimen/material_textinput_max_width</item>
-        <item name="android:minWidth">@dimen/material_textinput_min_width</item>
-        <item name="boxBackgroundColor">@null</item>
-        <item name="boxBackgroundMode">outline</item>
-        <item name="boxCollapsedPaddingTop">0.0dip</item>
-        <item name="boxStrokeColor">@color/mtrl_outlined_stroke_color</item>
-        <item name="boxStrokeErrorColor">@color/mtrl_error</item>
-        <item name="boxStrokeWidth">@dimen/mtrl_textinput_box_stroke_width_default</item>
-        <item name="boxStrokeWidthFocused">@dimen/mtrl_textinput_box_stroke_width_focused</item>
-        <item name="counterOverflowTextAppearance">?textAppearanceCaption</item>
-        <item name="counterOverflowTextColor">@color/mtrl_error</item>
-        <item name="counterTextAppearance">?textAppearanceCaption</item>
-        <item name="counterTextColor">@color/mtrl_indicator_text_color</item>
-        <item name="cursorColor">@null</item>
-        <item name="cursorErrorColor">@color/mtrl_error</item>
-        <item name="endIconTint">@color/mtrl_outlined_icon_tint</item>
-        <item name="enforceMaterialTheme">true</item>
-        <item name="enforceTextAppearance">true</item>
-        <item name="errorIconDrawable">@drawable/mtrl_ic_error</item>
-        <item name="errorIconTint">@color/mtrl_error</item>
-        <item name="errorTextAppearance">?textAppearanceCaption</item>
-        <item name="errorTextColor">@color/mtrl_error</item>
-        <item name="helperTextTextAppearance">?textAppearanceCaption</item>
-        <item name="helperTextTextColor">@color/mtrl_indicator_text_color</item>
-        <item name="hintTextAppearance">?textAppearanceCaption</item>
-        <item name="hintTextColor">?colorPrimary</item>
-        <item name="placeholderTextAppearance">?textAppearanceSubtitle1</item>
-        <item name="placeholderTextColor">@color/mtrl_indicator_text_color</item>
-        <item name="prefixTextAppearance">?textAppearanceSubtitle1</item>
-        <item name="prefixTextColor">@color/mtrl_indicator_text_color</item>
-        <item name="shapeAppearance">?shapeAppearanceSmallComponent</item>
-        <item name="shapeAppearanceOverlay">@null</item>
-        <item name="startIconTint">@color/mtrl_outlined_icon_tint</item>
-        <item name="suffixTextAppearance">?textAppearanceSubtitle1</item>
-        <item name="suffixTextColor">@color/mtrl_indicator_text_color</item>
     </style>
     <style name="Base.Widget.MaterialComponents.TextView" parent="@style/Widget.AppCompat.TextView" />
     <style name="BaseIcon">
