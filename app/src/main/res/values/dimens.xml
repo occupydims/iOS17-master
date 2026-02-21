@@ -46,7 +46,6 @@
     <dimen name="app_lib_icon_padding">12.0dip</dimen>
     <dimen name="app_lib_start_gradient">92.0dip</dimen>
     <dimen name="app_name_text_size">16.0dip</dimen>
-    <dimen name="appcompat_dialog_background_inset">16.0dip</dimen>
     <dimen name="arrow_popup_corner_radius">24.0dip</dimen>
     <dimen name="badge_padding_min">5.0dip</dimen>
     <dimen name="bg_popup_item_condensed_height">48.0dip</dimen>
@@ -72,14 +71,10 @@
     <dimen name="browser_actions_context_menu_max_width">500.0dip</dimen>
     <dimen name="browser_actions_context_menu_min_padding">20.0dip</dimen>
     <dimen name="card_round_corner_search">16.0dip</dimen>
-    <dimen name="cardview_compat_inset_shadow">1.0dip</dimen>
-    <dimen name="cardview_default_elevation">2.0dip</dimen>
-    <dimen name="cardview_default_radius">2.0dip</dimen>
     <dimen name="circle_button_size">24.0dip</dimen>
     <dimen name="circle_button_stroke_size">1.0dip</dimen>
     <dimen name="click_shadow_elevation">4.0dip</dimen>
     <dimen name="click_shadow_high_shift">2.0dip</dimen>
-    <dimen name="clock_face_margin_start">64.0dip</dimen>
     <dimen name="clock_native_ad_height">100.0dip</dimen>
     <dimen name="clock_wheel_item_height">28.0dip</dimen>
     <dimen name="collection_app_bar_height">200.0dip</dimen>
@@ -98,7 +93,6 @@
     <dimen name="deep_shortcuts_elevation">9.0dip</dimen>
     <dimen name="deep_shortcuts_start_drag_threshold">16.0dip</dimen>
     <dimen name="deep_shortcuts_text_padding_start">30.0dip</dimen>
-    <dimen name="def_drawer_elevation">10.0dip</dimen>
     <dimen name="default_clock_size">80.0dip</dimen>
     <dimen name="default_date_size">20.0dip</dimen>
     <dimen name="default_icon_margin">4.0dip</dimen>
@@ -173,10 +167,7 @@
     <dimen name="fast_scroller_text_margin">2.0dip</dimen>
     <dimen name="fast_scroller_text_margin_width">6.0dip</dimen>
     <dimen name="fast_scroller_text_size">11.0dip</dimen>
-    <dimen name="fastscroll_default_thickness">8.0dip</dimen>
     <dimen name="fastscroll_end_margin">-26.0dip</dimen>
-    <dimen name="fastscroll_margin">0.0dip</dimen>
-    <dimen name="fastscroll_minimum_range">50.0dip</dimen>
     <dimen name="fastscroll_popup_height">62.0dip</dimen>
     <dimen name="fastscroll_popup_margin">19.0dip</dimen>
     <dimen name="fastscroll_popup_padding">13.0dip</dimen>
@@ -246,9 +237,6 @@
     <dimen name="item_pack_button_width">232.0dip</dimen>
     <dimen name="item_settings_margin">10.0dip</dimen>
     <dimen name="item_symbol_margin_horizontal">6.0dip</dimen>
-    <dimen name="item_touch_helper_max_drag_scroll_per_frame">20.0dip</dimen>
-    <dimen name="item_touch_helper_swipe_escape_max_velocity">800.0dip</dimen>
-    <dimen name="item_touch_helper_swipe_escape_velocity">120.0dip</dimen>
     <item type="dimen" name="item_wallpaper_ratio">0.5</item>
     <dimen name="language_content_margin_horizontal">16.0dip</dimen>
     <dimen name="lap_time_size">80.0dip</dimen>
@@ -260,43 +248,17 @@
     <dimen name="margin_26">26.0dip</dimen>
     <dimen name="margin_8dp">8.0dip</dimen>
     <dimen name="margin_item">6.0dip</dimen>
-    <dimen name="material_bottom_sheet_max_width">640.0dip</dimen>
     <dimen name="material_clock_display_height">80.0dip</dimen>
-    <dimen name="material_clock_display_padding">24.0dip</dimen>
     <dimen name="material_clock_display_width">96.0dip</dimen>
     <dimen name="material_clock_face_margin_bottom">24.0dip</dimen>
-    <dimen name="material_clock_face_margin_top">44.0dip</dimen>
-    <dimen name="material_clock_hand_center_dot_radius">4.0dip</dimen>
-    <dimen name="material_clock_hand_padding">4.0dip</dimen>
-    <dimen name="material_clock_hand_stroke_width">2.0dip</dimen>
-    <dimen name="material_clock_number_text_size">15.0sp</dimen>
-    <dimen name="material_clock_period_toggle_height">96.0dip</dimen>
     <dimen name="material_clock_period_toggle_horizontal_gap">12.0dip</dimen>
     <dimen name="material_clock_period_toggle_vertical_gap">12.0dip</dimen>
-    <dimen name="material_clock_period_toggle_width">52.0dip</dimen>
-    <dimen name="material_clock_size">256.0dip</dimen>
     <dimen name="material_cursor_inset">-4.0dip</dimen>
-    <dimen name="material_cursor_width">2.0dip</dimen>
     <dimen name="material_divider_thickness">1.0dip</dimen>
     <item type="dimen" name="material_emphasis_disabled">0.38</item>
     <item type="dimen" name="material_emphasis_disabled_background">0.12</item>
     <item type="dimen" name="material_emphasis_high_type">0.87</item>
     <item type="dimen" name="material_emphasis_medium">0.6</item>
-    <dimen name="material_filled_edittext_font_1_3_padding_bottom">12.0dip</dimen>
-    <dimen name="material_filled_edittext_font_1_3_padding_top">23.0dip</dimen>
-    <dimen name="material_filled_edittext_font_2_0_padding_bottom">8.0dip</dimen>
-    <dimen name="material_filled_edittext_font_2_0_padding_top">32.0dip</dimen>
-    <dimen name="material_font_1_3_box_collapsed_padding_top">4.0dip</dimen>
-    <dimen name="material_font_2_0_box_collapsed_padding_top">8.0dip</dimen>
-    <dimen name="material_helper_text_default_padding_top">4.0dip</dimen>
-    <dimen name="material_helper_text_font_1_3_padding_horizontal">12.0dip</dimen>
-    <dimen name="material_helper_text_font_1_3_padding_top">8.0dip</dimen>
-    <dimen name="material_input_text_to_prefix_suffix_padding">2.0dip</dimen>
-    <dimen name="material_textinput_default_width">245.0dip</dimen>
-    <dimen name="material_textinput_max_width">488.0dip</dimen>
-    <dimen name="material_textinput_min_width">56.0dip</dimen>
-    <dimen name="material_time_picker_minimum_screen_height">560.0dip</dimen>
-    <dimen name="material_time_picker_minimum_screen_width">340.0dip</dimen>
     <dimen name="max_bottom_sheet_dialog_width">492.0dip</dimen>
     <dimen name="max_confirm_dialog_width">250.0dip</dimen>
     <dimen name="max_dialog_height">800.0dip</dimen>
