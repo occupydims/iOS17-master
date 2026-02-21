@@ -68,7 +68,10 @@ public class BlissLauncher extends Application {
         getContentResolver().registerContentObserver(NOTIFICATION_BADGING_URI, false, notificationSettingsObserver);
 
         if (!BuildConfig.DEBUG) {
-            Telemetry.init(BuildConfig.SENTRY_DSN, this, true);
+            String sentryDsn = BuildConfig.SENTRY_DSN;
+            if (sentryDsn != null && !sentryDsn.isEmpty() && !"null".equals(sentryDsn)) {
+                Telemetry.init(sentryDsn, this, true);
+            }
             Timber.plant(new ReleaseTree());
         } else {
             Timber.plant(new Timber.DebugTree());
