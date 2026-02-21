@@ -52,37 +52,36 @@ android {
 
     buildFeatures { buildConfig = true }
 
+    signingConfigs {
+        create("release") {
+            storeFile = if (File(keyStorePath).isAbsolute) file(keyStorePath) else file(rootDir.path + keyStorePath)
+            storePassword = keyStorePassword
+            keyAlias = signingKeyAlias
+            keyPassword = signingKeyPassword
+        }
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = false
             proguardFiles(getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro")
-            signingConfig = signingConfigs.getByName("debug")
+            signingConfig = signingConfigs.getByName("release")
         }
 
         debug {
             if (appendDebugSuffix) {
                 applicationIdSuffix = ".debug"
             }
-            signingConfig = signingConfigs.getByName("debug")
         }
 
         create("benchmark") {
-            signingConfig = signingConfigs.getByName("debug")
+            signingConfig = signingConfigs.getByName("release")
             matchingFallbacks += listOf("release")
             isDebuggable = false
         }
 
         configureEach {
             buildConfigField("String", "SENTRY_DSN", "\"${System.getenv("SENTRY_DSN")}\"")
-        }
-    }
-
-    signingConfigs {
-        getByName("debug") {
-            storeFile = if (File(keyStorePath).isAbsolute) file(keyStorePath) else file(rootDir.path + keyStorePath)
-            storePassword = keyStorePassword
-            keyAlias = signingKeyAlias
-            keyPassword = signingKeyPassword
         }
     }
 
