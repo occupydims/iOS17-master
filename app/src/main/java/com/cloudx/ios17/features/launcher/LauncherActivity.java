@@ -55,6 +55,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.view.animation.AccelerateInterpolator;
+import android.view.animation.DecelerateInterpolator;
 import android.view.animation.LinearInterpolator;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
@@ -2981,8 +2983,9 @@ public class LauncherActivity extends AppCompatActivity
                 .with(ObjectAnimator.ofFloat(mHorizontalPager, View.ALPHA, 0f))
                 .with(ObjectAnimator.ofFloat(mIndicator, View.ALPHA, 0f))
                 .with(ObjectAnimator.ofFloat(mDock, View.ALPHA, 0f));
-        set.setDuration(300);
-        set.setInterpolator(new LinearInterpolator());
+        set.setStartDelay(30);
+        set.setDuration(350);
+        set.setInterpolator(new DecelerateInterpolator(2.0f));
         set.addListener(new AnimatorListenerAdapter() {
             @Override
             public void onAnimationStart(Animator animation) {
@@ -3024,10 +3027,10 @@ public class LauncherActivity extends AppCompatActivity
         mFolderTitleInput.setCursorVisible(false);
 
         mFolderAppsViewPager.setAdapter(new FolderAppsPagerAdapter(this, app.items));
-        mFolderAppsViewPager.getLayoutParams().width = mDeviceProfile.cellWidthPx * 3
-                + mDeviceProfile.iconDrawablePaddingPx;
-        mFolderAppsViewPager.getLayoutParams().height = mDeviceProfile.cellHeightPx * 3
-                + mDeviceProfile.iconDrawablePaddingPx;
+        mFolderAppsViewPager.getLayoutParams().width = mDeviceProfile.folderCellWidthPx * 3
+                + mDeviceProfile.folderChildDrawablePaddingPx;
+        mFolderAppsViewPager.getLayoutParams().height = mDeviceProfile.folderCellHeightPx * 3
+                + mDeviceProfile.folderChildDrawablePaddingPx;
         ((CircleIndicator) mLauncherView.findViewById(R.id.indicator)).setViewPager(mFolderAppsViewPager);
 
     }
@@ -3069,9 +3072,8 @@ public class LauncherActivity extends AppCompatActivity
                 .with(ObjectAnimator.ofFloat(mHorizontalPager, View.ALPHA, 1f))
                 .with(ObjectAnimator.ofFloat(mIndicator, View.ALPHA, 1f))
                 .with(ObjectAnimator.ofFloat(mDock, View.ALPHA, 1f));
-        // .with(valueAnimator);
-        set.setDuration(300);
-        set.setInterpolator(new LinearInterpolator());
+        set.setDuration(350);
+        set.setInterpolator(new AccelerateInterpolator(2.0f));
         set.addListener(new AnimatorListenerAdapter() {
 
             @Override

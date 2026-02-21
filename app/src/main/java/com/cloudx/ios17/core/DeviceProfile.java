@@ -178,9 +178,11 @@ public class DeviceProfile {
 
         ComponentName cn = new ComponentName(context.getPackageName(), this.getClass().getName());
 
-        pageIndicatorSizePx = Utilities.pxFromDp(8, dm);
+        pageIndicatorSizePx = res.getDimensionPixelSize(res.getIdentifier("page_indicator_dot_size", "dimen", context.getPackageName()));
+        if (pageIndicatorSizePx == 0) pageIndicatorSizePx = Utilities.pxFromDp(6, dm);
         pageIndicatorTopPaddingPx = Utilities.pxFromDp(8, dm);
-        pageIndicatorBottomPaddingPx = Utilities.pxFromDp(8, dm);
+        pageIndicatorBottomPaddingPx = res.getDimensionPixelSize(res.getIdentifier("page_indicator_margin_bottom", "dimen", context.getPackageName()));
+        if (pageIndicatorBottomPaddingPx == 0) pageIndicatorBottomPaddingPx = Utilities.pxFromDp(8, dm);
 
         numColumns = 4;
         numFolderColumns = 3;
@@ -223,20 +225,11 @@ public class DeviceProfile {
     }
 
     private void updateIconSize(float scale, Resources res, DisplayMetrics dm) {
-        // Workspace
-        /*
-         * if (availableWidthPx < 640) { iconSizePx = 95; } else if (availableWidthPx <
-         * 960) { iconSizePx = 126; } else if (availableWidthPx < 1100) { iconSizePx =
-         * 160; } else if (availableWidthPx < 1200) { iconSizePx = 190; } else {
-         * iconSizePx = 213; }
-         */
-
-        float a = 1.578f;
-        float b = 1.23f;
-
         iconSizePx = (int) (0.75 * widthPx / widthCm);
         iconTextSizePx = (int) (Utilities.pxFromSp(12, dm) * scale);
-        iconDrawablePaddingPx = (availableWidthPx - iconSizePx * 4) / 5;
+        iconDrawablePaddingPx = Utilities.pxFromDp(8, dm);
+
+        workspaceCellPaddingXPx = Utilities.pxFromDp(8, dm);
 
         int tempUninstallIconSize = iconSizePx * 72 / 192;
         uninstallIconSizePx = (tempUninstallIconSize > iconDrawablePaddingPx)
@@ -261,21 +254,34 @@ public class DeviceProfile {
         cellHeightPx = cellHeightWithoutPaddingPx + iconDrawablePaddingPx;
         cellWidthPx = iconSizePx + iconDrawablePaddingPx;
 
-        // Hotseat
+        int hotseatTopPad = Utilities.pxFromDp(8, dm);
+        int hotseatBottomPad = Utilities.pxFromDp(2, dm);
+        hotseatBarTopPaddingPx = hotseatTopPad;
+        hotseatBarBottomPaddingPx = hotseatBottomPad;
+        hotseatBarSizePx = Utilities.pxFromDp(80, dm);
+
         hotseatCellHeightWithoutPaddingPx = iconSizePx;
         hotseatCellHeightPx = hotseatCellHeightWithoutPaddingPx + iconDrawablePaddingPx;
 
-        numRows = (availableHeightPx - Utilities.pxFromDp(8, dm) - pageIndicatorTopPaddingPx
+        int workspaceTopPadding = Utilities.pxFromDp(20, dm);
+        numRows = (availableHeightPx - workspaceTopPadding - pageIndicatorTopPaddingPx
                 - pageIndicatorBottomPaddingPx - pageIndicatorSizePx - hotseatCellHeightPx) / cellHeightPx;
 
         maxAppsPerPage = numColumns * numRows;
 
-        // Folder icon
         folderIconSizePx = iconSizePx;
+        folderCellWidthPx = cellWidthPx;
+        folderCellHeightPx = cellHeightPx;
+        folderChildIconSizePx = iconSizePx;
+        folderChildTextSizePx = Utilities.pxFromSp(13, dm);
+        folderChildDrawablePaddingPx = Utilities.pxFromDp(6, dm);
+
+        dropTargetBarSizePx = Utilities.pxFromDp(48, dm);
 
         fillResIconDpi = getLauncherIconDensity(iconSizePx);
 
-        maxWidgetWidth = availableWidthPx - (2 * Utilities.pxFromDp(8, dm));
+        int edgeMargin = Utilities.pxFromDp(8, dm);
+        maxWidgetWidth = availableWidthPx - (2 * edgeMargin);
         maxWidgetHeight = getWorkspaceHeight();
     }
 

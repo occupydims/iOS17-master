@@ -79,7 +79,7 @@ android {
 
     signingConfigs {
         getByName("debug") {
-            storeFile = file(rootDir.path + keyStorePath)
+            storeFile = if (File(keyStorePath).isAbsolute) file(keyStorePath) else file(rootDir.path + keyStorePath)
             storePassword = keyStorePassword
             keyAlias = signingKeyAlias
             keyPassword = signingKeyPassword
