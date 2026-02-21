@@ -134,6 +134,19 @@ android {
         disable.add("UnusedResources")
         baseline = file("lint-baseline.xml")
     }
+
+    packagingOptions {
+        resources {
+            excludes += setOf(
+                "assets/dexopt/baseline.prof",
+                "assets/dexopt/baseline.profm",
+                "META-INF/LICENSE",
+                "META-INF/LICENSE.txt",
+                "META-INF/NOTICE",
+                "META-INF/NOTICE.txt"
+            )
+        }
+    }
 }
 
 dependencies {
