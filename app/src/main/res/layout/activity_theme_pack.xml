@@ -4,7 +4,7 @@
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="28.5dip"
         android:textColor="@color/pro_main_text"
         android:id="@id/label"
@@ -82,7 +82,7 @@
         android:layout_marginTop="3.0dip"
         app:layout_constraintBottom_toTopOf="@id/bottom_nav"
         app:layout_constraintTop_toBottomOf="@id/ads_container" />
-    <com.truelib.common.view.BottomNavView
+    <android.widget.LinearLayout
         android:id="@id/bottom_nav"
         android:layout_width="fill_parent"
         android:layout_height="60.0dip"

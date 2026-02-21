@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             app:layout_constraintTop_toTopOf="parent" />
-        <com.truelib.themes.icon_studio.view.indicator.IndicatorStepCustom
+        <android.view.View
             android:id="@id/dots_indicator"
             android:background="@drawable/bg_dot"
             android:padding="5.0dip"

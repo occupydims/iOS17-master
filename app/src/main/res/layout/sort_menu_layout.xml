@@ -15,7 +15,7 @@
             android:orientation="vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-            <com.truelib.common.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="16.0dip"
                 android:ellipsize="end"
                 android:gravity="center_vertical"
@@ -34,7 +34,7 @@
                 android:background="@color/window_popup_divider"
                 android:layout_width="fill_parent"
                 android:layout_height="0.5dip" />
-            <com.truelib.common.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="16.0dip"
                 android:ellipsize="end"
                 android:gravity="center_vertical"
@@ -53,7 +53,7 @@
                 android:background="@color/window_popup_divider"
                 android:layout_width="fill_parent"
                 android:layout_height="0.5dip" />
-            <com.truelib.common.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="16.0dip"
                 android:ellipsize="end"
                 android:gravity="center_vertical"
@@ -72,7 +72,7 @@
                 android:background="@color/window_popup_divider"
                 android:layout_width="fill_parent"
                 android:layout_height="0.5dip" />
-            <com.truelib.common.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="16.0dip"
                 android:ellipsize="end"
                 android:gravity="center_vertical"

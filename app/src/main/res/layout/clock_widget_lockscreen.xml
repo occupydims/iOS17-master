@@ -15,7 +15,7 @@
         android:layout_height="@dimen/lock_icon_size"
         android:layout_marginTop="@dimen/time_margin_top"
         android:src="@drawable/ic_lock_preview" />
-    <com.truelib.settings.custom.TextCustomFont
+    <android.widget.TextView
         android:textSize="@dimen/default_date_size"
         android:textColor="@android:color/white"
         android:gravity="center"
@@ -23,7 +23,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5.0dip" />
-    <com.truelib.settings.wallpaper.view.ClockTextView
+    <android.widget.TextView
         android:textSize="@dimen/default_clock_size"
         android:textColor="@android:color/white"
         android:gravity="center"

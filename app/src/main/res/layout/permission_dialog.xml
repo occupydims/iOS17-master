@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.truelib.common.blur.OneShotBlurConstraintLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     android:layout_height="wrap_content"
     android:layout_marginLeft="40.0dip"
     android:layout_marginRight="40.0dip"
@@ -18,7 +18,7 @@
         android:layout_marginStart="24.0dip"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.truelib.settings.custom.TextCustomFont
+    <android.widget.TextView
         android:textAppearance="@style/TextAppearance.AppCompat.Title"
         android:textSize="16.0dip"
         android:textStyle="bold"
@@ -35,7 +35,7 @@
         app:customFont="2"
         app:layout_constraintTop_toBottomOf="@id/icon"
         app:layout_goneMarginTop="24.0dip" />
-    <com.truelib.settings.custom.TextCustomFont
+    <android.widget.TextView
         android:textSize="14.0dip"
         android:textColor="@color/common_text"
         android:gravity="start"
@@ -60,4 +60,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/txt_message" />
-</com.truelib.common.blur.OneShotBlurConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

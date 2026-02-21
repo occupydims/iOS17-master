@@ -27,7 +27,7 @@
             android:src="@drawable/back_icon"
             app:tint="@color/theme_text_primary" />
     </LinearLayout>
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="18.5dip"
         android:textColor="@color/theme_text_primary"
         android:ellipsize="end"
@@ -57,7 +57,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/back_button" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="14.0dip"
         android:textColor="@color/theme_neutrals_white"
         android:gravity="center"

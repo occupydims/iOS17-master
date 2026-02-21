@@ -6,7 +6,7 @@
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="17.0dip"
         android:textColor="#ff000000"
         android:gravity="center"
@@ -20,7 +20,7 @@
         app:layout_constraintEnd_toEndOf="@id/list"
         app:layout_constraintStart_toStartOf="@id/list"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="17.0dip"
         android:textColor="#ff007aff"
         android:id="@id/done_button"
@@ -33,7 +33,7 @@
         app:layout_constraintBottom_toBottomOf="@id/label"
         app:layout_constraintEnd_toEndOf="@id/list"
         app:layout_constraintTop_toTopOf="@id/label" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="12.0dip"
         android:textColor="#993c3c43"
         android:id="@id/header"
@@ -73,7 +73,7 @@
         app:layout_constraintEnd_toStartOf="@id/native_right"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_goneMarginBottom="60.0dip">
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="16.75dip"
             android:textColor="#ffffffff"
             android:paddingTop="14.0dip"

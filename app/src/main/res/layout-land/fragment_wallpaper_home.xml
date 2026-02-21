@@ -5,7 +5,7 @@
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.truelib.settings.custom.TextCustomFont
+    <android.widget.TextView
         android:textSize="12.0dip"
         android:textColor="@color/black"
         android:gravity="center"
@@ -158,7 +158,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/divider_line"
         app:layout_constraintTop_toTopOf="@id/pair_button" />
-    <com.truelib.settings.custom.TextCustomFont
+    <android.widget.TextView
         android:textSize="10.0dip"
         android:textColor="@color/white"
         android:id="@id/pair_text"
@@ -169,7 +169,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/pair_button"
         app:layout_constraintStart_toStartOf="@id/pair_button" />
-    <com.truelib.settings.custom.TextCustomFont
+    <android.widget.TextView
         android:textSize="10.0dip"
         android:textColor="@color/white"
         android:layout_width="wrap_content"
@@ -179,7 +179,7 @@
         app:layout_constraintEnd_toEndOf="@id/color_button"
         app:layout_constraintStart_toStartOf="@id/color_button"
         app:layout_constraintTop_toTopOf="@id/pair_text" />
-    <com.truelib.settings.custom.TextCustomFont
+    <android.widget.TextView
         android:textSize="10.0dip"
         android:textColor="@color/white"
         android:layout_width="wrap_content"
@@ -189,7 +189,7 @@
         app:layout_constraintEnd_toEndOf="@id/gradient_button"
         app:layout_constraintStart_toStartOf="@id/gradient_button"
         app:layout_constraintTop_toTopOf="@id/pair_text" />
-    <com.truelib.settings.custom.TextCustomFont
+    <android.widget.TextView
         android:textSize="10.0dip"
         android:textColor="@color/white"
         android:layout_width="wrap_content"
@@ -199,7 +199,7 @@
         app:layout_constraintEnd_toEndOf="@id/photo_button"
         app:layout_constraintStart_toStartOf="@id/photo_button"
         app:layout_constraintTop_toTopOf="@id/pair_text" />
-    <com.truelib.settings.custom.TextCustomFont
+    <android.widget.TextView
         android:textSize="10.0dip"
         android:textColor="@color/white"
         android:layout_width="wrap_content"
@@ -209,7 +209,7 @@
         app:layout_constraintEnd_toEndOf="@id/blur_button"
         app:layout_constraintStart_toStartOf="@id/blur_button"
         app:layout_constraintTop_toTopOf="@id/pair_text" />
-    <com.truelib.settings.common.LoadingView
+    <android.widget.ProgressBar
         android:id="@id/loading_view"
         android:visibility="gone"
         android:layout_width="fill_parent"

@@ -10,7 +10,7 @@
     android:paddingHorizontal="12.0dip"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="23.5dip"
         android:textColor="@color/primary"
         android:ellipsize="marquee"
@@ -28,7 +28,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="14.0dip"
         android:textColor="@color/theme_text_secondary"
         android:id="@id/description"

@@ -27,7 +27,7 @@
             android:tint="#ffffcc00"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-        <com.truelib.settings.custom.TextCustomFont
+        <android.widget.TextView
             android:textColor="@color/content_3rd"
             android:id="@id/text_warning"
             android:layout_width="0.0dip"
@@ -37,7 +37,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/icon_warning"
             app:layout_constraintTop_toTopOf="parent" />
-        <com.truelib.settings.custom.TextCustomFont
+        <android.widget.TextView
             android:textColor="@color/blue_color"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
@@ -63,7 +63,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/txt_icon_pack_warning"
         app:layout_constraintVertical_bias="0.0" />
-    <com.truelib.settings.common.LoadingView
+    <android.widget.ProgressBar
         android:id="@id/loading_view"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"

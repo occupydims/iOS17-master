@@ -54,7 +54,7 @@
             android:layout_height="fill_parent"
             android:src="@drawable/ic_theme_search_close" />
     </LinearLayout>
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="14.199982dip"
         android:textColor="@color/theme_text_primary"
         android:ellipsize="end"
@@ -101,7 +101,7 @@
             android:layout_width="@dimen/loading_thumb_size"
             android:layout_height="@dimen/loading_thumb_size"
             layout="@layout/theme_loading_layout" />
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="18.5dip"
             android:gravity="center"
             android:id="@id/empty_text"

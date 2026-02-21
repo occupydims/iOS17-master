@@ -30,7 +30,7 @@
         android:layout_marginStart="16.0dip"
         app:layout_constraintStart_toEndOf="@id/btn_delete"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:enabled="false"
         android:textSize="13.0dip"
         android:textColor="@color/text_color"

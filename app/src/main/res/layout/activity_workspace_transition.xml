@@ -38,7 +38,7 @@
                     android:src="@drawable/wallpaper_preview_icons" />
             </LinearLayout>
         </FrameLayout>
-        <com.truelib.settings.custom.SafeScrollView
+        <android.widget.ScrollView
             android:id="@id/scroll_container"
             android:paddingBottom="@dimen/small_margin"
             android:layout_width="fill_parent"
@@ -69,7 +69,7 @@
                     app:cardCornerRadius="@dimen/radius_item_settings"
                     app:cardElevation="0.0dip"
                     app:layout_constraintTop_toBottomOf="@id/banner_ad_frame">
-                    <com.truelib.settings.custom.TextCustomFont
+                    <android.widget.TextView
                         android:textSize="@dimen/medium_text_size"
                         android:textColor="@color/color_content_1st"
                         android:ellipsize="end"
@@ -92,7 +92,7 @@
                         app:customFont="3"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/auto_arrange" />
-                    <com.truelib.settings.custom.TextCustomFont
+                    <android.widget.TextView
                         android:textSize="@dimen/medium_text_size"
                         android:textColor="@color/color_content_1st"
                         android:ellipsize="end"
@@ -116,7 +116,7 @@
                         app:customFont="3"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/auto_arrange" />
-                    <com.truelib.settings.custom.TextCustomFont
+                    <android.widget.TextView
                         android:textSize="@dimen/medium_text_size"
                         android:textColor="@color/color_content_1st"
                         android:ellipsize="end"
@@ -140,7 +140,7 @@
                         app:customFont="3"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/auto_arrange" />
-                    <com.truelib.settings.custom.TextCustomFont
+                    <android.widget.TextView
                         android:textSize="@dimen/medium_text_size"
                         android:textColor="@color/color_content_1st"
                         android:ellipsize="end"
@@ -164,7 +164,7 @@
                         app:customFont="3"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/auto_arrange" />
-                    <com.truelib.settings.custom.TextCustomFont
+                    <android.widget.TextView
                         android:textSize="@dimen/medium_text_size"
                         android:textColor="@color/color_content_1st"
                         android:ellipsize="end"
@@ -190,6 +190,6 @@
                         app:layout_constraintTop_toBottomOf="@id/auto_arrange" />
                 </LinearLayout>
             </androidx.constraintlayout.widget.ConstraintLayout>
-        </com.truelib.settings.custom.SafeScrollView>
+        </android.widget.ScrollView>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.android.launcher3.views.SafeHorizontalScrollView
+<android.widget.HorizontalScrollView
     android:id="@id/widgets_scroll_container"
     android:background="?android:colorPrimaryDark"
     android:scrollbars="none"
@@ -14,4 +14,4 @@
         android:showDividers="none"
         android:paddingStart="0.0dip"
         android:paddingEnd="0.0dip" />
-</com.android.launcher3.views.SafeHorizontalScrollView>
+</android.widget.HorizontalScrollView>

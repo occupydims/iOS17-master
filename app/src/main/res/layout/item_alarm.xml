@@ -15,7 +15,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="48.0dip"
         android:textColor="@color/clock_main_text_color"
         android:id="@id/hour_text"
@@ -27,7 +27,7 @@
         app:layout_constraintBottom_toTopOf="@id/label_text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="13.0dip"
         android:textColor="@color/clock_sub_text_color"
         android:id="@id/label_text"
@@ -38,7 +38,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/hour_text" />
-    <com.truelib.common.view.IOSSwitchView
+    <android.widget.Switch
         android:id="@id/enabled_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -70,7 +70,7 @@
         android:layout_height="0.0dip"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="13.0dip"
         android:textColor="@color/clock_main_text_color"
         android:id="@id/delete_text"

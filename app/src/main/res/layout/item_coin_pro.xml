@@ -20,7 +20,7 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:scaleType="centerCrop" />
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="16.75dip"
             android:textColor="@color/white"
             android:id="@id/tv_title"

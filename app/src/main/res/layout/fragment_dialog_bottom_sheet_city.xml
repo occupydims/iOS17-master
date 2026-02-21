@@ -5,7 +5,7 @@
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="16.0sp"
         android:textColor="@color/white"
         android:id="@id/tv_choose_city"
@@ -38,7 +38,7 @@
             android:src="@drawable/ic_search_clock"
             android:layout_centerVertical="true"
             android:importantForAccessibility="no" />
-        <com.truelib.common.ExtendedEditText
+        <android.widget.EditText
             android:textSize="16.0sp"
             android:textColor="@color/white"
             android:textColorHint="@color/clock_sub_text_color"
@@ -76,7 +76,7 @@
             android:text="@string/cancel"
             android:textAlignment="center" />
     </FrameLayout>
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="16.0sp"
         android:textColor="@color/clock_unselected_color"
         android:id="@id/tv_title"

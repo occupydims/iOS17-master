@@ -8,7 +8,7 @@
     android:paddingHorizontal="16.0dip"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="11.0dip"
         android:textColor="#993c3c43"
         android:id="@id/category_name"

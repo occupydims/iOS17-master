@@ -37,7 +37,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 app:layout_constraintBottom_toTopOf="@id/hotseat_container">
-                <com.truelib.themes.icon_studio.view.preview.PagerIndicatorView
+                <android.view.View
                     android:layout_gravity="center"
                     android:id="@id/page_indicator"
                     android:background="@drawable/icon_pack_preview_indicator"

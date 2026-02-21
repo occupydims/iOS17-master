@@ -20,36 +20,36 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/action_bar_custom">
-        <com.truelib.settings.custom.CheckedSettingsItem
+        <android.widget.LinearLayout
             android:id="@id/one_selected_refresh"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             app:settingText="@string/one_selected_refresh" />
-        <com.truelib.settings.custom.CheckedSettingsItem
+        <android.widget.LinearLayout
             android:id="@id/two_selected_refresh"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             app:hideIconChecked="true"
             app:settingText="@string/two_selected_refresh" />
-        <com.truelib.settings.custom.CheckedSettingsItem
+        <android.widget.LinearLayout
             android:id="@id/three_selected_refresh"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             app:hideIconChecked="true"
             app:settingText="@string/three_selected_refresh" />
-        <com.truelib.settings.custom.CheckedSettingsItem
+        <android.widget.LinearLayout
             android:id="@id/four_selected_refresh"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             app:hideIconChecked="true"
             app:settingText="@string/four_selected_refresh" />
-        <com.truelib.settings.custom.CheckedSettingsItem
+        <android.widget.LinearLayout
             android:id="@id/five_selected_refresh"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             app:hideIconChecked="true"
             app:settingText="@string/five_selected_refresh" />
-        <com.truelib.settings.custom.CheckedSettingsItem
+        <android.widget.LinearLayout
             android:id="@id/six_selected_refresh"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"

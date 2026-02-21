@@ -16,7 +16,7 @@
         app:layout_constraintEnd_toStartOf="@id/native_ad_frame"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-        <com.android.launcher3.settings.custom.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="18.0dip"
             android:textColor="@color/pro_main_text"
             android:id="@id/title"
@@ -27,7 +27,7 @@
             app:customFont="2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-        <com.android.launcher3.views.SafeScrollView
+        <android.widget.ScrollView
             android:scrollbars="vertical"
             android:layout_width="fill_parent"
             android:layout_height="0.0dip"
@@ -42,7 +42,7 @@
                 android:orientation="vertical"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content">
-                <com.android.launcher3.settings.custom.TextViewCustomFont
+                <android.widget.TextView
                     android:textSize="16.0dip"
                     android:textColor="@color/pro_main_text"
                     android:id="@id/description"
@@ -51,7 +51,7 @@
                     android:layout_marginTop="8.0dip"
                     android:text="@string/uninstall_warning_description"
                     android:includeFontPadding="false" />
-                <com.android.launcher3.settings.custom.TextViewCustomFont
+                <android.widget.TextView
                     android:textSize="16.0dip"
                     android:textColor="@color/pro_main_text"
                     android:id="@id/warning_1"
@@ -61,7 +61,7 @@
                     android:text="@string/warning_point_1"
                     android:includeFontPadding="false"
                     android:layout_marginStart="6.0dip" />
-                <com.android.launcher3.settings.custom.TextViewCustomFont
+                <android.widget.TextView
                     android:textSize="16.0dip"
                     android:textColor="@color/pro_main_text"
                     android:id="@id/warning_2"
@@ -71,7 +71,7 @@
                     android:text="@string/warning_point_2"
                     android:includeFontPadding="false"
                     android:layout_marginStart="6.0dip" />
-                <com.android.launcher3.settings.custom.TextViewCustomFont
+                <android.widget.TextView
                     android:textSize="16.0dip"
                     android:textColor="@color/pro_main_text"
                     android:id="@id/warning_3"
@@ -82,7 +82,7 @@
                     android:includeFontPadding="false"
                     android:layout_marginStart="6.0dip" />
             </LinearLayout>
-        </com.android.launcher3.views.SafeScrollView>
+        </android.widget.ScrollView>
         <TextView
             android:textSize="14.0dip"
             android:textColor="@color/white"

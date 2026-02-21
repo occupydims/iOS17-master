@@ -30,7 +30,7 @@
             android:layout_height="fill_parent"
             android:layout_margin="18.0dip" />
     </androidx.cardview.widget.CardView>
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="24.0dip"
         android:textColor="@color/text_primary"
         android:gravity="center"
@@ -43,7 +43,7 @@
         android:layout_marginHorizontal="16.0dip"
         app:customFont="2"
         app:layout_constraintBottom_toBottomOf="parent" />
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="16.0dip"
         android:textColor="@color/text_primary"
         android:gravity="center"
@@ -72,7 +72,7 @@
         android:paddingHorizontal="16.0dip"
         android:paddingVertical="14.0dip"
         app:layout_constraintBottom_toTopOf="@id/description">
-        <com.android.launcher3.settings.custom.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="14.0dip"
             android:textColor="@color/text_primary"
             android:ellipsize="end"
@@ -82,7 +82,7 @@
             android:lines="1"
             android:layout_weight="1.0"
             android:layout_marginEnd="@dimen/small_margin" />
-        <com.android.launcher3.settings.custom.SwitchView
+        <android.widget.Switch
             android:id="@id/switch_button"
             android:duplicateParentState="true"
             android:layout_width="@dimen/width_switch_view"

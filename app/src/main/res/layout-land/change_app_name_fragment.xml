@@ -21,7 +21,7 @@
         app:layout_constraintBottom_toBottomOf="@id/action_bar_custom"
         app:layout_constraintEnd_toEndOf="@id/action_bar_custom"
         app:layout_constraintTop_toTopOf="@id/action_bar_custom" />
-    <com.truelib.settings.custom.SafeScrollView
+    <android.widget.ScrollView
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -52,7 +52,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
-                <com.truelib.settings.custom.ExtendedEditText
+                <android.widget.EditText
                     android:textSize="@dimen/medium_text_size"
                     android:textColor="@color/color_content_1st"
                     android:textColorHint="#ffcccccc"
@@ -85,7 +85,7 @@
                 android:layout_marginHorizontal="@dimen/medium_margin"
                 android:layout_marginVertical="@dimen/medium_margin"
                 app:layout_constraintTop_toBottomOf="@id/items">
-                <com.truelib.settings.custom.TextCustomFont
+                <android.widget.TextView
                     android:textSize="@dimen/medium_text_size"
                     android:textColor="@color/blue_color"
                     android:gravity="center_vertical"
@@ -97,7 +97,7 @@
                     android:paddingStart="@dimen/medium_margin" />
             </LinearLayout>
         </LinearLayout>
-    </com.truelib.settings.custom.SafeScrollView>
+    </android.widget.ScrollView>
     <FrameLayout
         android:id="@id/native_ad_frame"
         android:paddingLeft="@dimen/medium_margin"

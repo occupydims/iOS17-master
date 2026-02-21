@@ -10,7 +10,7 @@
     android:paddingVertical="11.0dip"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="17.0dip"
         android:textColor="@color/common_main_text_color"
         android:ellipsize="end"

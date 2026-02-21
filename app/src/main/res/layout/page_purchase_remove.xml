@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.truelib.adapter.billing.ui.common.GradientBorderView
+    <android.view.View
         android:orientation="horizontal"
         android:id="@id/buttonMonth"
         android:paddingLeft="20.0dip"
@@ -51,8 +51,8 @@
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             app:fontFamily="@font/sfpro_text_semi_bold" />
-    </com.truelib.adapter.billing.ui.common.GradientBorderView>
-    <com.truelib.adapter.billing.ui.common.GradientBorderView
+    </android.view.View>
+    <android.view.View
         android:orientation="horizontal"
         android:id="@id/buttonLifeTime"
         android:paddingLeft="20.0dip"
@@ -99,8 +99,8 @@
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             app:fontFamily="@font/sfpro_text_semi_bold" />
-    </com.truelib.adapter.billing.ui.common.GradientBorderView>
-    <com.truelib.adapter.billing.ui.common.ColorfulBorderView
+    </android.view.View>
+    <android.view.View
         android:gravity="center"
         android:id="@id/btn_continue"
         android:layout_width="0.0dip"
@@ -127,7 +127,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-    </com.truelib.adapter.billing.ui.common.ColorfulBorderView>
+    </android.view.View>
     <LinearLayout
         android:gravity="center"
         android:id="@id/container"

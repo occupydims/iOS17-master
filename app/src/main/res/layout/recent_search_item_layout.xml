@@ -8,7 +8,7 @@
     android:layout_marginRight="4.0dip"
     android:layout_marginHorizontal="4.0dip"
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="14.199982dip"
         android:textColor="@color/theme_text_primary"
         android:gravity="center"

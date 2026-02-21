@@ -7,7 +7,7 @@
     android:layout_marginHorizontal="16.0dip"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="17.0dip"
         android:textColor="#ff000000"
         android:id="@id/text"

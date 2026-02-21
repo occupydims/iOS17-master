@@ -22,7 +22,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:shapeAppearanceOverlay="@style/RoundedCornerShape" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="14.0dip"
         android:textColor="@color/white"
         android:ellipsize="end"
@@ -47,7 +47,7 @@
         app:layout_constraintBottom_toBottomOf="@id/nameType"
         app:layout_constraintStart_toEndOf="@id/imThumb"
         app:layout_constraintTop_toTopOf="@id/nameType" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="11.0dip"
         android:textColor="@color/app_search_title_secondary"
         android:id="@id/nameType"

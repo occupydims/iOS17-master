@@ -52,7 +52,7 @@
         app:lottie_autoPlay="false"
         app:lottie_loop="true"
         app:lottie_rawRes="@raw/sale" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="12.5dip"
         android:textStyle="bold"
         android:textColor="@color/theme_text_primary"

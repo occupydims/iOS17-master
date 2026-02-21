@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.android.launcher3.folder.Folder
+<android.widget.FrameLayout
     android:orientation="vertical"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:launcher="http://schemas.android.com/apk/res-auto">
-    <com.android.launcher3.ExtendedEditText
+    <android.widget.EditText
         android:textSize="@dimen/folder_label_text_size"
         android:textColor="#ffffffff"
         android:textColorHint="#ffc1c1c1"
@@ -30,7 +30,7 @@
         android:id="@id/real_folder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-        <com.android.launcher3.views.GlassBlurWallpaperView
+        <android.widget.ImageView
             android:id="@id/glass_blur"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent" />
@@ -38,7 +38,7 @@
             android:orientation="vertical"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent">
-            <com.android.launcher3.folder.FolderPagedView
+            <android.widget.FrameLayoutPagedView
                 android:id="@id/folder_content"
                 android:paddingLeft="8.0dip"
                 android:paddingTop="16.0dip"
@@ -58,7 +58,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:paddingVertical="5.0dip">
-                <com.android.launcher3.pageindicators.PageIndicatorDots
+                <android.view.View
                     android:layout_gravity="center_vertical"
                     android:id="@id/folder_page_indicator"
                     android:layout_width="fill_parent"
@@ -66,4 +66,4 @@
             </LinearLayout>
         </LinearLayout>
     </FrameLayout>
-</com.android.launcher3.folder.Folder>
+</android.widget.FrameLayout>

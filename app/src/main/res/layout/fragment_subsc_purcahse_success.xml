@@ -16,7 +16,7 @@
         app:lottie_autoPlay="true"
         app:lottie_loop="false"
         app:lottie_rawRes="@raw/subsc_success_anim" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="23.5dip"
         android:textColor="@color/subsc_text_color"
         android:gravity="center"
@@ -33,7 +33,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/anim_view" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="14.199982dip"
         android:textColor="@color/subsc_text_color"
         android:gravity="center"
@@ -49,7 +49,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_title" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="14.199982dip"
         android:textColor="@color/subsc_text_button_color"
         android:gravity="center"

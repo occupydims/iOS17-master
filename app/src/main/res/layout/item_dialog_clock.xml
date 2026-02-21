@@ -8,7 +8,7 @@
         android:orientation="horizontal"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content">
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="17.0dip"
             android:textColor="@color/time_text_color"
             android:id="@id/text"

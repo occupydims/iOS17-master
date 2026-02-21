@@ -18,7 +18,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-        <com.truelib.themes.icon_studio.view.icon_list.PreviewItemView
+        <android.widget.FrameLayout
             android:id="@id/image_preview"
             android:background="@drawable/item_background"
             android:layout_width="fill_parent"

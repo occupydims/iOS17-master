@@ -54,7 +54,7 @@
         app:layout_constraintEnd_toStartOf="@id/arrowImage"
         app:layout_constraintStart_toEndOf="@id/card_settings_icon"
         app:layout_constraintTop_toTopOf="parent">
-        <com.truelib.cross.views.CustomTextView
+        <android.widget.TextView
             android:textSize="15.0dip"
             android:textColor="#ff3b3b3b"
             android:gravity="start"

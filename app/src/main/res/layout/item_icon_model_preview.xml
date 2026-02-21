@@ -9,7 +9,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="8.0dip"
         android:textColor="@color/white"
         android:id="@id/txt_free"
@@ -44,7 +44,7 @@
         app:layout_constraintEnd_toEndOf="@id/txt_free"
         app:layout_constraintStart_toStartOf="@id/txt_free"
         app:layout_constraintTop_toTopOf="@id/txt_free" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="18.5dip"
         android:textColor="@color/pro_main_text"
         android:ellipsize="marquee"

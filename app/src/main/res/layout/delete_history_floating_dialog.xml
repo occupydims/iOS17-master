@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.android.launcher3.dialog.DeleteHistoryFloatingDialog
+<android.widget.FrameLayout
     android:gravity="center"
     android:orientation="vertical"
     android:background="#80000000"
@@ -14,7 +14,7 @@
         android:layout_marginRight="40.0dip"
         android:layout_marginHorizontal="40.0dip"
         style="@style/width_match_parent_max_492">
-        <com.android.launcher3.views.GlassBlurWallpaperView
+        <android.widget.ImageView
             android:id="@id/view_glass_bg"
             android:layout_width="0.0dip"
             android:layout_height="0.0dip"
@@ -22,7 +22,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-        <com.android.launcher3.settings.custom.TextViewCustomFont
+        <android.widget.TextView
             android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
             android:textSize="16.0dip"
             android:textColor="@color/common_text"
@@ -37,7 +37,7 @@
             android:layout_marginHorizontal="24.0dip"
             app:customFont="2"
             app:layout_constraintTop_toTopOf="parent" />
-        <com.android.launcher3.settings.custom.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="14.0dip"
             android:textColor="@color/common_text_secondary"
             android:gravity="start"
@@ -54,7 +54,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tvTitle" />
-        <com.android.launcher3.settings.custom.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="14.0dip"
             android:textColor="@color/common_text"
             android:gravity="center"
@@ -78,7 +78,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
-        <com.android.launcher3.settings.custom.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="14.0dip"
             android:textColor="@color/remove_color"
             android:gravity="center"
@@ -104,4 +104,4 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/description" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-</com.android.launcher3.dialog.DeleteHistoryFloatingDialog>
+</android.widget.FrameLayout>

@@ -10,7 +10,7 @@
         android:background="@drawable/upgrade_dialog_bg"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
-        <com.android.launcher3.settings.custom.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="20.0dip"
             android:textColor="@color/text_primary"
             android:gravity="center"
@@ -44,7 +44,7 @@
             app:cardCornerRadius="36.0dip"
             app:cardElevation="16.0dip"
             app:layout_constraintBottom_toBottomOf="parent">
-            <com.android.launcher3.settings.custom.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="14.0dip"
                 android:textColor="@color/text_primary"
                 android:gravity="center"

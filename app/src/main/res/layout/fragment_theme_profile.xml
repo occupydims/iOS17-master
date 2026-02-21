@@ -51,7 +51,7 @@
                 android:layout_height="32.0dip"
                 android:src="@drawable/my_theme_btn_icon"
                 android:paddingVertical="6.0dip" />
-            <com.truelib.common.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="10.0dip"
                 android:textColor="@color/theme_text_primary"
                 android:gravity="center_horizontal"
@@ -87,7 +87,7 @@
                 android:layout_height="32.0dip"
                 android:src="@drawable/ic_my_icon"
                 android:paddingVertical="6.0dip" />
-            <com.truelib.common.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="10.0dip"
                 android:textColor="@color/theme_text_primary"
                 android:gravity="center_horizontal"
@@ -121,7 +121,7 @@
                 android:layout_height="32.0dip"
                 android:src="@drawable/ic_my_wallpaper"
                 android:paddingVertical="6.0dip" />
-            <com.truelib.common.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="10.0dip"
                 android:textColor="@color/theme_text_primary"
                 android:gravity="center_horizontal"
@@ -132,7 +132,7 @@
                 android:maxLines="1"
                 app:customFont="2" />
         </LinearLayout>
-        <com.truelib.common.view.SettingItemView
+        <android.widget.LinearLayout
             android:id="@id/favorite_button"
             android:background="@drawable/theme_profile_border"
             android:padding="16.0dip"
@@ -152,7 +152,7 @@
             app:setting_title="@string/favorites"
             app:setting_title_color="@color/theme_text_primary"
             app:setting_title_font="2" />
-        <com.truelib.common.view.SettingItemView
+        <android.widget.LinearLayout
             android:id="@id/premium_state"
             android:background="@drawable/theme_profile_border"
             android:padding="16.0dip"
@@ -172,7 +172,7 @@
             app:setting_title="@string/join_premium_package"
             app:setting_title_color="@color/white"
             app:setting_title_font="2" />
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="14.199982dip"
             android:textColor="@color/theme_text_secondary"
             android:id="@id/about_us"
@@ -196,7 +196,7 @@
             android:layout_marginRight="@dimen/theme_profile_margin"
             android:layout_marginHorizontal="@dimen/theme_profile_margin"
             app:layout_constraintTop_toBottomOf="@id/about_us">
-            <com.truelib.common.view.SettingItemView
+            <android.widget.LinearLayout
                 android:id="@id/appearence"
                 android:background="@drawable/ripple_transparent_background_16"
                 android:padding="16.0dip"
@@ -211,7 +211,7 @@
                 app:setting_title="@string/appearence"
                 app:setting_title_color="@color/theme_text_primary"
                 app:setting_title_font="2" />
-            <com.truelib.common.view.SettingItemView
+            <android.widget.LinearLayout
                 android:id="@id/privacy"
                 android:background="@drawable/ripple_transparent_background_16"
                 android:padding="16.0dip"

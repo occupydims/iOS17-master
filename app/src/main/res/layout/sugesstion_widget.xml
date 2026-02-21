@@ -3,7 +3,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.android.launcher3.views.BlurWallpaperView
+    <android.widget.ImageView
         android:id="@id/blur_background"
         android:visibility="gone"
         android:layout_width="fill_parent"

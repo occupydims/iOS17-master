@@ -30,7 +30,7 @@
         app:layout_constraintBottom_toBottomOf="@id/search_background"
         app:layout_constraintEnd_toEndOf="@id/search_background"
         app:layout_constraintTop_toTopOf="@id/search_background" />
-    <com.truelib.settings.custom.ExtendedEditText
+    <android.widget.EditText
         android:textColor="@color/text_primary"
         android:textColorHint="#ffcccccc"
         android:gravity="center_vertical"

@@ -10,7 +10,7 @@
         android:id="@id/main_frame"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="18.0dip"
             android:textColor="@color/color_text_os_launcher"
             android:ellipsize="end"
@@ -30,7 +30,7 @@
             app:layout_constraintEnd_toStartOf="@id/btn_continue_2"
             app:layout_constraintStart_toStartOf="@id/list"
             app:layout_constraintTop_toTopOf="parent" />
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="12.0dip"
             android:textColor="@color/color_text_os_launcher"
             android:gravity="center"
@@ -60,7 +60,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/label" />
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="16.75dip"
             android:textColor="#ffffffff"
             android:gravity="center"

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.truelib.themes.view.seekbar.SeekbarLayout
+<android.widget.FrameLayout
     android:paddingTop="@dimen/seekbar_layout_padding_top"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
@@ -45,7 +45,7 @@
         android:paddingEnd="16.0dip"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.truelib.themes.view.seekbar.CustomSeekBar
+    <android.widget.SeekBar
         android:id="@id/seek_bar"
         android:paddingLeft="12.0dip"
         android:paddingRight="12.0dip"
@@ -63,4 +63,4 @@
         android:layout_marginRight="16.0dip"
         android:layout_marginHorizontal="16.0dip"
         app:layout_constraintBottom_toBottomOf="parent" />
-</com.truelib.themes.view.seekbar.SeekbarLayout>
+</android.widget.FrameLayout>

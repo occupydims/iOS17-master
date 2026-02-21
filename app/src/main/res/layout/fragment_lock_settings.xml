@@ -14,7 +14,7 @@
         android:id="@id/container"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
-        <com.truelib.settings.custom.TextCustomFont
+        <android.widget.TextView
             android:textSize="12.0dip"
             android:textColor="@color/white"
             android:gravity="center"
@@ -34,7 +34,7 @@
             app:customFont="2"
             app:layout_constraintRight_toRightOf="@id/widget_container"
             app:layout_constraintTop_toTopOf="parent" />
-        <com.truelib.settings.custom.TextCustomFont
+        <android.widget.TextView
             android:textSize="12.0dip"
             android:textColor="@color/color_content_1st"
             android:gravity="center"
@@ -64,7 +64,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/confirm_button" />
-        <com.truelib.settings.custom.TextCustomFont
+        <android.widget.TextView
             android:textSize="@dimen/default_date_size"
             android:textColor="@android:color/white"
             android:gravity="center"
@@ -81,7 +81,7 @@
             app:layout_constraintTop_toBottomOf="@id/icon_lock"
             app:layout_constraintWidth_percent="0.9"
             app:layout_goneMarginTop="48.0dip" />
-        <com.truelib.settings.wallpaper.view.ClockTextView
+        <android.widget.TextView
             android:textSize="@dimen/default_clock_size"
             android:textColor="@android:color/white"
             android:gravity="center"
@@ -111,7 +111,7 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/timing"
             app:layout_constraintWidth_percent="0.9" />
-        <com.truelib.settings.custom.TextCustomFont
+        <android.widget.TextView
             android:textSize="13.0dip"
             android:textColor="#ccf2f2f2"
             android:id="@id/empty_widget"
@@ -139,7 +139,7 @@
             app:layout_constraintBottom_toTopOf="@id/banner_ad_frame"
             app:layout_constraintStart_toStartOf="parent"
             app:tint="@color/white" />
-        <com.truelib.settings.wallpaper.view.PagerIndicatorView
+        <android.view.View
             android:id="@id/indicator"
             android:background="@drawable/wallpaper_indicator_bg"
             android:paddingLeft="14.0dip"
@@ -164,7 +164,7 @@
             app:layout_constraintBottom_toBottomOf="@id/choose_image"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@id/choose_image" />
-        <com.truelib.settings.custom.TextCustomFont
+        <android.widget.TextView
             android:textSize="15.0dip"
             android:textColor="@color/white"
             android:id="@id/wallpaper_type"

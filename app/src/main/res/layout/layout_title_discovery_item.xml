@@ -8,7 +8,7 @@
     android:layout_marginHorizontal="8.0dip"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="14.0dip"
         android:textColor="@color/app_search_title_primary"
         android:id="@id/title_discovery"

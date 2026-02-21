@@ -11,7 +11,7 @@
         android:layout_height="0.0dip"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="18.0dip"
         android:textColor="#ff000000"
         android:id="@id/title"
@@ -23,7 +23,7 @@
         app:customFont="2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textColor="@color/white"
         android:id="@id/btn_skip"
         android:background="@drawable/gray_background_radius_big"
@@ -60,7 +60,7 @@
             app:cardBackgroundColor="#00000000"
             app:cardCornerRadius="12.0dip"
             app:cardElevation="0.0dip">
-            <com.truelib.onboarding.startpage.StartPageWallpaperBackgroundImageView
+            <android.widget.ImageView
                 android:id="@id/img_background"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
@@ -94,7 +94,7 @@
                 app:cardBackgroundColor="#cc818181"
                 app:cardCornerRadius="8.879974dip"
                 app:cardElevation="0.0dip">
-                <com.truelib.onboarding.startpage.StartPageWallpaperItemImageView
+                <android.widget.ImageView
                     android:id="@id/img_wallpaper_1"
                     android:layout_width="fill_parent"
                     android:layout_height="60.0dip"
@@ -116,7 +116,7 @@
                 app:cardBackgroundColor="#cc818181"
                 app:cardCornerRadius="8.0dip"
                 app:cardElevation="0.0dip">
-                <com.truelib.onboarding.startpage.StartPageWallpaperItemImageView
+                <android.widget.ImageView
                     android:id="@id/img_wallpaper_2"
                     android:layout_width="fill_parent"
                     android:layout_height="60.0dip"
@@ -138,7 +138,7 @@
                 app:cardBackgroundColor="#cc818181"
                 app:cardCornerRadius="8.0dip"
                 app:cardElevation="0.0dip">
-                <com.truelib.onboarding.startpage.StartPageWallpaperItemImageView
+                <android.widget.ImageView
                     android:id="@id/img_wallpaper_3"
                     android:layout_width="fill_parent"
                     android:layout_height="60.0dip"
@@ -160,7 +160,7 @@
                 app:cardBackgroundColor="#cc818181"
                 app:cardCornerRadius="8.0dip"
                 app:cardElevation="0.0dip">
-                <com.truelib.onboarding.startpage.StartPageWallpaperItemImageView
+                <android.widget.ImageView
                     android:id="@id/img_wallpaper_4"
                     android:layout_width="fill_parent"
                     android:layout_height="60.0dip"

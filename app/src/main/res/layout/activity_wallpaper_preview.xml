@@ -4,11 +4,11 @@
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.truelib.themes.wallpaper_pack.view.view.HomeScreenView
+    <android.widget.FrameLayout
         android:id="@id/workspace"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="16.75dip"
         android:textColor="@color/theme_neutrals_black"
         android:id="@id/btn_cancel"
@@ -28,7 +28,7 @@
         android:paddingVertical="5.5dip"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="16.75dip"
         android:textColor="@color/white"
         android:id="@id/btn_apply"

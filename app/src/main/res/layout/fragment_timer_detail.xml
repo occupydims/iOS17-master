@@ -25,7 +25,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
-                <com.truelib.common.view.ValueProgressView
+                <android.widget.ProgressBar
                     android:id="@id/progress"
                     android:layout_width="292.0dip"
                     android:layout_height="292.0dip"
@@ -44,7 +44,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
-                <com.truelib.common.TextViewCustomFont
+                <android.widget.TextView
                     android:textSize="17.0dip"
                     android:textColor="@color/clock_sub_text_color"
                     android:id="@id/end_time"
@@ -57,7 +57,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
-            <com.truelib.common.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="15.0dip"
                 android:textColor="@color/text_color"
                 android:gravity="center"
@@ -70,7 +70,7 @@
                 android:layout_marginStart="16.0dip"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/progress_wrap" />
-            <com.truelib.common.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="15.0dip"
                 android:textColor="@color/clock_start_text_color"
                 android:gravity="center"
@@ -84,7 +84,7 @@
                 android:backgroundTint="@color/clock_start_bg_color"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/progress_wrap" />
-            <com.truelib.common.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="15.0dip"
                 android:textColor="@color/clock_selected_color"
                 android:gravity="center"

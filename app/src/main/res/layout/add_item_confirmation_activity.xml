@@ -18,7 +18,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/action_add_to_workspace" />
-        <com.android.launcher3.views.SafeScrollView
+        <android.widget.ScrollView
             android:clipToPadding="false"
             android:layout_width="fill_parent"
             android:layout_height="0.0dip"
@@ -31,7 +31,7 @@
                 <FrameLayout
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content">
-                    <com.android.launcher3.dragndrop.LivePreviewWidgetCell
+                    <android.widget.FrameLayout
                         android:gravity="center_horizontal"
                         android:layout_gravity="center_horizontal"
                         android:orientation="vertical"
@@ -42,10 +42,10 @@
                         android:layout_weight="1.0">
                         <include
                             layout="@layout/widget_cell_content" />
-                    </com.android.launcher3.dragndrop.LivePreviewWidgetCell>
+                    </android.widget.FrameLayout>
                 </FrameLayout>
             </LinearLayout>
-        </com.android.launcher3.views.SafeScrollView>
+        </android.widget.ScrollView>
         <LinearLayout
             android:gravity="center"
             android:layout_width="fill_parent"

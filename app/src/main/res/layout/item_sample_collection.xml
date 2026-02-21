@@ -33,7 +33,7 @@
             android:id="@id/collection_gradient"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
-            <com.truelib.common.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="12.5dip"
                 android:textColor="@color/white"
                 android:ellipsize="end"

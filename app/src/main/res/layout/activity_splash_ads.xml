@@ -5,7 +5,7 @@
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="30.0dip"
         android:id="@id/app_logo"
         android:layout_width="wrap_content"
@@ -31,7 +31,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:trackColor="#ff323a47" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="14.0dip"
         android:textColor="#ff000000"
         android:gravity="center"

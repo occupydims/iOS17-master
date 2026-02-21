@@ -33,7 +33,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/image_container"
         app:layout_constraintTop_toTopOf="parent">
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="18.5dip"
             android:textColor="@color/theme_text_primary"
             android:id="@id/collection_name"
@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:maxLines="1"
             app:customFont="2" />
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="16.75dip"
             android:textColor="@color/theme_text_primary"
             android:id="@id/collection_count"

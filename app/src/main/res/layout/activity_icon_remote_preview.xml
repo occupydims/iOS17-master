@@ -28,7 +28,7 @@
         app:layout_constraintBottom_toBottomOf="@id/apply_button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/apply_button" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="17.0dip"
         android:textColor="@color/white"
         android:gravity="center"

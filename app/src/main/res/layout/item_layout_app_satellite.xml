@@ -46,7 +46,7 @@
                     android:layout_height="fill_parent"
                     android:src="@drawable/img_remove_ads" />
             </androidx.cardview.widget.CardView>
-            <com.truelib.settings.custom.TextCustomFont
+            <android.widget.TextView
                 android:textSize="14.0dip"
                 android:textColor="@color/color_content_1st"
                 android:id="@id/app_name"
@@ -58,7 +58,7 @@
                 app:layout_constraintEnd_toStartOf="@id/install_check"
                 app:layout_constraintStart_toEndOf="@id/card_app_icon"
                 app:layout_constraintTop_toTopOf="parent" />
-            <com.truelib.settings.custom.TextCustomFont
+            <android.widget.TextView
                 android:textSize="12.0dip"
                 android:textColor="@color/content_3rd"
                 android:ellipsize="end"
@@ -73,7 +73,7 @@
                 app:layout_constraintEnd_toEndOf="@id/app_name"
                 app:layout_constraintStart_toEndOf="@id/card_app_icon"
                 app:layout_constraintTop_toBottomOf="@id/app_name" />
-            <com.truelib.settings.custom.TextCustomFont
+            <android.widget.TextView
                 android:textColor="@color/second_text"
                 android:id="@id/install_check"
                 android:background="@drawable/background_install"

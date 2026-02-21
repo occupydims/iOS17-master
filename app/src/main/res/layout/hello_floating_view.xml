@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.android.launcher3.views.HelloFloatingView
+<android.widget.FrameLayout
     android:gravity="center"
     android:orientation="vertical"
     android:background="@color/background_wallpaper"
@@ -22,7 +22,7 @@
             app:lottie_autoPlay="true"
             app:lottie_loop="true"
             app:lottie_rawRes="@raw/hello_lottie" />
-        <com.android.launcher3.settings.custom.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="16.0dip"
             android:textColor="@color/pro_main_text"
             android:gravity="center"
@@ -57,4 +57,4 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintWidth_percent="0.5" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-</com.android.launcher3.views.HelloFloatingView>
+</android.widget.FrameLayout>

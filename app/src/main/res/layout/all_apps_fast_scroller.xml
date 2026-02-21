@@ -8,7 +8,7 @@
         android:layout_marginEnd="@dimen/fastscroll_popup_margin"
         android:layout_alignParentEnd="true"
         style="@style/FastScrollerPopup" />
-    <com.android.launcher3.views.RecyclerViewFastScroller
+    <android.view.View
         android:id="@id/fast_scroller"
         android:layout_width="@dimen/fastscroll_width"
         android:layout_height="wrap_content"

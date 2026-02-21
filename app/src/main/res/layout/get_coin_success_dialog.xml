@@ -19,7 +19,7 @@
         android:layout_height="150.0dip"
         android:src="@drawable/coin_congratulation"
         android:contentDescription="@null" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="18.0dip"
         android:textColor="@color/theme_text_primary"
         android:id="@id/title"
@@ -28,7 +28,7 @@
         android:layout_marginTop="24.0dip"
         android:text="@string/coin_congratulation"
         app:customFont="2" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="28.5dip"
         android:textColor="@color/theme_color_orange"
         android:id="@id/earned_coin"
@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8.0dip"
         app:customFont="2" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="16.0dip"
         android:textColor="@color/theme_text_secondary"
         android:gravity="center"
@@ -53,7 +53,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30.0dip">
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="16.0dip"
             android:textColor="@color/white"
             android:gravity="center"
@@ -68,7 +68,7 @@
             android:paddingVertical="13.0dip"
             app:customFont="2" />
     </LinearLayout>
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="16.0dip"
         android:textColor="@color/theme_color_blue"
         android:gravity="center"

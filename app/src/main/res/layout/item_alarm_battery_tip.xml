@@ -14,7 +14,7 @@
         app:layout_constraintBottom_toTopOf="@id/tip_content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="15.0dip"
         android:textColor="@color/clock_main_text_color"
         android:id="@id/tip_title"
@@ -27,7 +27,7 @@
         app:layout_constraintEnd_toStartOf="@id/tip_button"
         app:layout_constraintStart_toEndOf="@id/tip_icon"
         app:layout_constraintTop_toTopOf="@id/tip_icon" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textColor="@color/clock_sub_text_color"
         android:id="@id/tip_content"
         android:layout_width="0.0dip"
@@ -39,7 +39,7 @@
         app:layout_constraintEnd_toEndOf="@id/tip_title"
         app:layout_constraintStart_toStartOf="@id/tip_icon"
         app:layout_constraintTop_toBottomOf="@id/tip_icon" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="15.0dip"
         android:textColor="@color/clock_selected_color"
         android:id="@id/tip_button"

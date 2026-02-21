@@ -21,7 +21,7 @@
         android:contentDescription="@null"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="18.0dip"
         android:textColor="@color/theme_text_primary"
         android:id="@id/title"
@@ -32,7 +32,7 @@
         app:customFont="2"
         app:layout_constraintStart_toEndOf="@id/img_dialog"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="28.5dip"
         android:textColor="@color/theme_color_orange"
         android:id="@id/earned_coin"
@@ -43,7 +43,7 @@
         app:customFont="2"
         app:layout_constraintStart_toEndOf="@id/img_dialog"
         app:layout_constraintTop_toBottomOf="@id/title" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="16.0dip"
         android:textColor="@color/theme_text_secondary"
         android:id="@id/content_earned"
@@ -64,7 +64,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30.0dip"
         app:layout_constraintTop_toBottomOf="@id/content_earned">
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="16.0dip"
             android:textColor="@color/white"
             android:gravity="center"
@@ -79,7 +79,7 @@
             android:paddingVertical="13.0dip"
             app:customFont="2" />
     </LinearLayout>
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="16.0dip"
         android:textColor="@color/theme_color_blue"
         android:gravity="center"

@@ -69,7 +69,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintWidth_percent="0.3">
-                    <com.truelib.common.TextViewCustomFont
+                    <android.widget.TextView
                         android:textStyle="bold"
                         android:textColor="@color/pro_main_text"
                         android:ellipsize="end"
@@ -90,7 +90,7 @@
                         android:layout_height="30.0dip"
                         android:src="@drawable/ic_checked"
                         android:alpha="0.6" />
-                    <com.truelib.common.TextViewCustomFont
+                    <android.widget.TextView
                         android:textColor="@color/white"
                         android:ellipsize="end"
                         android:gravity="center"
@@ -116,7 +116,7 @@
                     app:layout_constraintStart_toEndOf="@id/monthly"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintWidth_percent="0.3">
-                    <com.truelib.common.TextViewCustomFont
+                    <android.widget.TextView
                         android:textColor="@color/pro_main_text"
                         android:ellipsize="end"
                         android:gravity="center"
@@ -136,7 +136,7 @@
                         android:layout_height="30.0dip"
                         android:src="@drawable/ic_checked"
                         android:alpha="0.6" />
-                    <com.truelib.common.TextViewCustomFont
+                    <android.widget.TextView
                         android:textColor="@color/white"
                         android:ellipsize="end"
                         android:gravity="center"
@@ -163,7 +163,7 @@
                     app:layout_constraintStart_toEndOf="@id/yearly"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintWidth_percent="0.3">
-                    <com.truelib.common.TextViewCustomFont
+                    <android.widget.TextView
                         android:textColor="@color/pro_main_text"
                         android:ellipsize="end"
                         android:gravity="center"
@@ -183,7 +183,7 @@
                         android:layout_height="30.0dip"
                         android:src="@drawable/ic_checked"
                         android:alpha="0.6" />
-                    <com.truelib.common.TextViewCustomFont
+                    <android.widget.TextView
                         android:textColor="@color/white"
                         android:ellipsize="end"
                         android:gravity="center"
@@ -229,7 +229,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@id/page_icon"
                     app:layout_constraintTop_toTopOf="parent">
-                    <com.truelib.common.TextViewCustomFont
+                    <android.widget.TextView
                         android:textSize="16.0dip"
                         android:textColor="@color/pro_main_text"
                         android:ellipsize="end"
@@ -239,7 +239,7 @@
                         android:text="@string/theme_pack"
                         android:maxLines="1"
                         app:customFont="2" />
-                    <com.truelib.common.TextViewCustomFont
+                    <android.widget.TextView
                         android:textSize="@dimen/text_size_12"
                         android:textColor="@color/pro_main_text"
                         android:id="@id/page_des"
@@ -274,7 +274,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@id/widget_icon"
                     app:layout_constraintTop_toTopOf="parent">
-                    <com.truelib.common.TextViewCustomFont
+                    <android.widget.TextView
                         android:textSize="16.0dip"
                         android:textColor="@color/pro_main_text"
                         android:ellipsize="end"
@@ -284,7 +284,7 @@
                         android:text="@string/premium_wallpapers"
                         android:maxLines="1"
                         app:customFont="2" />
-                    <com.truelib.common.TextViewCustomFont
+                    <android.widget.TextView
                         android:textSize="@dimen/text_size_12"
                         android:textColor="@color/pro_main_text"
                         android:id="@id/wallpaper_des"
@@ -319,7 +319,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@id/support_icon"
                     app:layout_constraintTop_toTopOf="parent">
-                    <com.truelib.common.TextViewCustomFont
+                    <android.widget.TextView
                         android:textSize="16.0dip"
                         android:textColor="@color/pro_main_text"
                         android:ellipsize="end"
@@ -329,7 +329,7 @@
                         android:text="@string/vip_supported"
                         android:maxLines="1"
                         app:customFont="2" />
-                    <com.truelib.common.TextViewCustomFont
+                    <android.widget.TextView
                         android:textSize="@dimen/text_size_12"
                         android:textColor="@color/pro_main_text"
                         android:id="@id/support_des"
@@ -364,7 +364,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@id/ads_icon"
                     app:layout_constraintTop_toTopOf="parent">
-                    <com.truelib.common.TextViewCustomFont
+                    <android.widget.TextView
                         android:textSize="16.0dip"
                         android:textColor="@color/pro_main_text"
                         android:ellipsize="end"
@@ -374,7 +374,7 @@
                         android:text="@string/remove_all_ads"
                         android:maxLines="1"
                         app:customFont="2" />
-                    <com.truelib.common.TextViewCustomFont
+                    <android.widget.TextView
                         android:textSize="@dimen/text_size_12"
                         android:textColor="@color/pro_main_text"
                         android:id="@id/ads_des"
@@ -389,7 +389,7 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </ScrollView>
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textColor="@color/pro_main_text"
         android:id="@id/continue_free"
         android:background="@drawable/bg_dialog_40"

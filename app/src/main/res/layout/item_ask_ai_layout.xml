@@ -17,7 +17,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="16.75dip"
         android:textColor="@android:color/white"
         android:id="@id/option_title"

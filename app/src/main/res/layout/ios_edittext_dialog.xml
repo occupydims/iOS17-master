@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.truelib.settings.custom.TextCustomFont
+    <android.widget.TextView
         android:textSize="18.0dip"
         android:textColor="@color/color_content_1st"
         android:id="@id/txt_title"
@@ -16,7 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.truelib.settings.custom.TextCustomFont
+    <android.widget.TextView
         android:textSize="12.0dip"
         android:textColor="@color/color_content_2nd"
         android:gravity="center"
@@ -48,7 +48,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/txt_message" />
-    <com.truelib.settings.custom.TextCustomFont
+    <android.widget.TextView
         android:textSize="14.0dip"
         android:textColor="@color/color_content_1st"
         android:gravity="center"
@@ -70,7 +70,7 @@
         app:layout_constraintEnd_toStartOf="@id/btn_positive"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/edt_content" />
-    <com.truelib.settings.custom.TextCustomFont
+    <android.widget.TextView
         android:textSize="14.0dip"
         android:textColor="#ffffffff"
         android:gravity="center"

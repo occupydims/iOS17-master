@@ -13,7 +13,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
-        <com.truelib.cross.views.CustomTextView
+        <android.widget.TextView
             android:textSize="18.0dip"
             android:textStyle="bold"
             android:textColor="@color/black"
@@ -29,7 +29,7 @@
             android:drawablePadding="10.0dip"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-        <com.truelib.cross.views.CustomTextView
+        <android.widget.TextView
             android:textSize="14.0dip"
             android:textColor="@color/black"
             android:ellipsize="end"
@@ -63,7 +63,7 @@
                 android:layout_height="fill_parent"
                 android:scaleType="centerInside" />
         </androidx.cardview.widget.CardView>
-        <com.truelib.cross.views.CustomTextView
+        <android.widget.TextView
             android:textSize="18.0sp"
             android:textColor="@color/blue_color"
             android:gravity="center"
@@ -79,7 +79,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/bannerContainer" />
-        <com.truelib.cross.views.CustomTextView
+        <android.widget.TextView
             android:textSize="18.0sp"
             android:textColor="@color/blue_color"
             android:id="@id/cancel_button"

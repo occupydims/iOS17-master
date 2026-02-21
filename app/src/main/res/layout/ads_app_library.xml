@@ -8,7 +8,7 @@
     android:layout_marginTop="16.0dip"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.android.launcher3.views.GlassFrameLayout
+    <android.widget.FrameLayout
         android:id="@id/lib_blur_background"
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
@@ -23,7 +23,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="13.0dip"
         android:textColor="@android:color/white"
         android:ellipsize="end"

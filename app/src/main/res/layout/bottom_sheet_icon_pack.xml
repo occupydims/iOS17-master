@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="20.0dip"
         android:textStyle="bold"
         android:textColor="@color/icon_pack_text"
@@ -23,7 +23,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="15.0dip"
         android:textColor="@color/icon_pack_text"
         android:gravity="center"
@@ -49,7 +49,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/description" />
-    <com.android.launcher3.pageindicators.PageIndicatorDots
+    <android.view.View
         android:id="@id/page_indicator"
         android:layout_width="0.0dip"
         android:layout_height="24.0dip"
@@ -59,7 +59,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/view_pager" />
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textColor="@color/icon_pack_text"
         android:gravity="center"
         android:id="@id/empty_text"

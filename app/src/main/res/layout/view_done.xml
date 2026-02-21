@@ -28,7 +28,7 @@
             android:layout_height="30.0dip"
             android:layout_marginBottom="4.0dip"
             android:src="@drawable/ic_checkmark" />
-        <com.truelib.settings.custom.TextCustomFont
+        <android.widget.TextView
             android:textSize="17.0dip"
             android:textColor="@color/color_container_solid_inverse"
             android:layout_gravity="center"

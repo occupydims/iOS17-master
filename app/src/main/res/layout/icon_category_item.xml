@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.truelib.common.TextViewCustomFont
+<android.widget.TextView
     android:textSize="14.0sp"
     android:textColor="@color/category_color_selector"
     android:gravity="center"

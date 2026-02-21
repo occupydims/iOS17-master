@@ -5,7 +5,7 @@
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.truelib.settings.custom.SafeScrollView
+    <android.widget.ScrollView
         android:layout_width="fill_parent"
         android:layout_height="0.0dip"
         app:layout_constraintBottom_toTopOf="@id/native_ad_frame"
@@ -16,7 +16,7 @@
             android:orientation="vertical"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
-            <com.truelib.settings.custom.TextCustomFont
+            <android.widget.TextView
                 android:textSize="@dimen/small_text_size"
                 android:textColor="@color/content_3rd"
                 android:id="@id/title"
@@ -42,12 +42,12 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/title">
-                <com.truelib.settings.custom.CheckedSettingsItem
+                <android.widget.LinearLayout
                     android:id="@id/celsius"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     app:settingText="@string/celsius" />
-                <com.truelib.settings.custom.CheckedSettingsItem
+                <android.widget.LinearLayout
                     android:id="@id/fahrenheit"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -55,7 +55,7 @@
                     app:hideIconChecked="true"
                     app:settingText="@string/fahrenheit" />
             </androidx.appcompat.widget.LinearLayoutCompat>
-            <com.truelib.settings.custom.TextCustomFont
+            <android.widget.TextView
                 android:textSize="@dimen/small_text_size"
                 android:textColor="@color/content_3rd"
                 android:id="@id/des_temp"
@@ -82,7 +82,7 @@
                 android:layout_marginTop="8.0dip"
                 android:layout_marginRight="@dimen/medium_margin"
                 android:layout_marginHorizontal="@dimen/medium_margin">
-                <com.truelib.settings.custom.TextCustomFont
+                <android.widget.TextView
                     android:textSize="@dimen/medium_text_size"
                     android:textColor="@color/color_content_1st"
                     android:ellipsize="end"
@@ -94,7 +94,7 @@
                     android:lines="1"
                     android:layout_weight="6.0"
                     android:layout_marginStart="@dimen/medium_margin" />
-                <com.truelib.settings.custom.TextCustomFont
+                <android.widget.TextView
                     android:textSize="@dimen/medium_text_size"
                     android:textColor="@color/content_3rd"
                     android:ellipsize="end"
@@ -116,7 +116,7 @@
                     android:layout_marginEnd="@dimen/medium_margin" />
             </LinearLayout>
         </LinearLayout>
-    </com.truelib.settings.custom.SafeScrollView>
+    </android.widget.ScrollView>
     <FrameLayout
         android:id="@id/native_ad_frame"
         android:paddingLeft="@dimen/medium_margin"

@@ -102,7 +102,7 @@
         app:layout_constraintTop_toTopOf="@id/progress_circular"
         app:lottie_autoPlay="false"
         app:lottie_rawRes="@raw/subsc_success_anim" />
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="18.5dip"
         android:textColor="@color/pro_main_text"
         android:gravity="center"
@@ -114,7 +114,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/progress_circular" />
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="18.5dip"
         android:textColor="@color/pro_main_text"
         android:gravity="center"
@@ -133,7 +133,7 @@
         app:layout_constraintHeight_percent="0.5"
         app:layout_constraintStart_toStartOf="parent"
         style="@style/width_match_parent_max_492">
-        <com.android.launcher3.settings.custom.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="14.199982dip"
             android:textColor="@color/pro_sub_text"
             android:id="@id/txt_contain_ads"
@@ -156,7 +156,7 @@
             android:layout_marginHorizontal="16.0dip"
             app:layout_constraintBottom_toTopOf="@id/txt_contain_ads"
             style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
-        <com.android.launcher3.settings.custom.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="16.75dip"
             android:textColor="@color/pro_main_text"
             android:id="@id/txt_progress"
@@ -168,7 +168,7 @@
             app:layout_constraintEnd_toEndOf="@id/progress_bar"
             app:layout_constraintStart_toStartOf="@id/progress_bar"
             app:layout_constraintTop_toTopOf="@id/progress_bar" />
-        <com.android.launcher3.settings.custom.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="16.75dip"
             android:textColor="@color/white"
             android:gravity="center"

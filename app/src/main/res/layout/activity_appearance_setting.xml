@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.truelib.settings.custom.SafeScrollView
+<android.widget.ScrollView
     android:background="@color/new_background"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
@@ -52,7 +52,7 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
                 </androidx.cardview.widget.CardView>
-                <com.truelib.common.TextViewCustomFont
+                <android.widget.TextView
                     android:textSize="14.0sp"
                     android:textColor="@color/color_content_1st"
                     android:gravity="center"
@@ -108,7 +108,7 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
                 </androidx.cardview.widget.CardView>
-                <com.truelib.common.TextViewCustomFont
+                <android.widget.TextView
                     android:textSize="14.0sp"
                     android:textColor="@color/color_content_1st"
                     android:gravity="center"
@@ -150,7 +150,7 @@
                     android:layout_marginRight="16.0dip"
                     android:layout_marginHorizontal="16.0dip"
                     app:layout_constraintTop_toTopOf="parent" />
-                <com.truelib.settings.custom.TextCustomFont
+                <android.widget.TextView
                     android:textSize="14.0dip"
                     android:textColor="@color/color_content_1st"
                     android:gravity="center|left"
@@ -164,7 +164,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/divider" />
-                <com.truelib.settingview.view.OsSwitchView
+                <android.widget.Switch
                     android:id="@id/switch_auto"
                     android:duplicateParentState="true"
                     android:layout_width="wrap_content"
@@ -200,7 +200,7 @@
             android:layout_marginHorizontal="16.0dip"
             android:paddingVertical="8.0dip"
             app:layout_constraintTop_toBottomOf="@id/ads_container">
-            <com.truelib.settings.custom.TextCustomFont
+            <android.widget.TextView
                 android:textSize="14.0dip"
                 android:textColor="@color/color_content_1st"
                 android:gravity="center|left"
@@ -213,7 +213,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
-            <com.truelib.settingview.view.OsSwitchView
+            <android.widget.Switch
                 android:id="@id/switch_system"
                 android:duplicateParentState="true"
                 android:layout_width="wrap_content"
@@ -225,4 +225,4 @@
                 app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
-</com.truelib.settings.custom.SafeScrollView>
+</android.widget.ScrollView>

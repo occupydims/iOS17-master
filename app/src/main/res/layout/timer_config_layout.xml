@@ -16,7 +16,7 @@
             android:background="@drawable/clock_ripple_selector_background"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
-            <com.truelib.common.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="17.0dip"
                 android:textColor="@color/white"
                 android:gravity="center"
@@ -29,7 +29,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
-            <com.truelib.common.ExtendedEditText
+            <android.widget.EditText
                 android:textSize="17.0dip"
                 android:textColor="#99ebebf5"
                 android:textColorHint="#99ebebf5"
@@ -72,7 +72,7 @@
             android:layout_height="wrap_content"
             android:paddingHorizontal="16.0dip"
             android:paddingVertical="11.0dip">
-            <com.truelib.common.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="17.0dip"
                 android:textColor="@color/white"
                 android:layout_gravity="start|center"
@@ -83,7 +83,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
-            <com.truelib.common.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="17.0dip"
                 android:textColor="#99ebebf5"
                 android:ellipsize="end"

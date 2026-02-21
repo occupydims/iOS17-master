@@ -21,12 +21,12 @@
         app:cardElevation="0.0dip"
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintTop_toTopOf="parent">
-        <com.truelib.themes.icon_studio.view.icon_list.PreviewItemView
+        <android.widget.FrameLayout
             android:id="@id/image_preview"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent" />
     </androidx.cardview.widget.CardView>
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="10.0dip"
         android:textColor="@color/white"
         android:id="@id/txt_free"
@@ -70,7 +70,7 @@
         app:layout_constraintBottom_toBottomOf="@id/icon_pack_name"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/icon_pack_name" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="12.5dip"
         android:textStyle="bold"
         android:textColor="@color/icon_pack_text"

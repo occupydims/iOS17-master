@@ -23,7 +23,7 @@
             android:layout_marginTop="@dimen/fit_window_cutout_mode"
             android:src="@mipmap/ic_launcher"
             android:scaleType="fitCenter" />
-        <com.android.launcher3.settings.custom.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="19.0dip"
             android:textColor="@android:color/black"
             android:id="@id/app_name"
@@ -35,7 +35,7 @@
         <FrameLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
-            <com.android.launcher3.settings.custom.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="12.0dip"
                 android:textColor="@android:color/black"
                 android:gravity="center"
@@ -46,7 +46,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5.0dip"
                 android:text="@string/optimizing" />
-            <com.android.launcher3.settings.custom.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="12.0dip"
                 android:textColor="@android:color/darker_gray"
                 android:gravity="center"
@@ -117,7 +117,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintWidth_percent="0.5" />
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="16.0dip"
         android:gravity="center"
         android:id="@id/open_button"

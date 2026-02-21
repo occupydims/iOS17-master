@@ -15,7 +15,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
-            <com.truelib.common.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="17.0dip"
                 android:textColor="@color/clock_main_text_color"
                 android:ellipsize="end"
@@ -34,7 +34,7 @@
                 android:paddingVertical="10.0dip"
                 app:customFont="2"
                 app:layout_constraintTop_toTopOf="parent" />
-            <com.truelib.common.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="17.0dip"
                 android:textColor="@color/clock_selected_color"
                 android:id="@id/cancel_button"
@@ -50,7 +50,7 @@
                 app:layout_constraintBottom_toBottomOf="@id/label"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@id/label" />
-            <com.truelib.common.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="17.0dip"
                 android:textColor="@color/clock_selected_color"
                 android:layout_gravity="end"
@@ -82,7 +82,7 @@
                 android:layout_marginHorizontal="16.0dip"
                 app:layout_constraintBottom_toBottomOf="@id/wv_hour"
                 app:layout_constraintTop_toTopOf="@id/wv_hour" />
-            <com.truelib.common.view.wheel.Wheel3DView
+            <android.widget.NumberPicker
                 android:id="@id/wv_hour"
                 android:layout_width="0.0dip"
                 android:layout_height="wrap_content"
@@ -92,7 +92,7 @@
                 app:layout_constraintTop_toBottomOf="@id/label"
                 app:layout_constraintWidth_percent="0.3333"
                 style="@style/DatePickerStyle" />
-            <com.truelib.common.view.wheel.Wheel3DView
+            <android.widget.NumberPicker
                 android:id="@id/wv_min"
                 android:layout_width="0.0dip"
                 android:layout_height="wrap_content"
@@ -121,13 +121,13 @@
                     android:layout_width="fill_parent"
                     android:layout_height="44.0dip"
                     android:paddingHorizontal="16.0dip">
-                    <com.truelib.common.TextViewCustomFont
+                    <android.widget.TextView
                         android:textSize="17.0dip"
                         android:textColor="@color/clock_main_text_color"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/repeat" />
-                    <com.truelib.common.TextViewCustomFont
+                    <android.widget.TextView
                         android:textSize="17.0dip"
                         android:textColor="@color/clock_sub_text_color"
                         android:ellipsize="end"
@@ -160,13 +160,13 @@
                     android:layout_width="fill_parent"
                     android:layout_height="44.0dip"
                     android:paddingHorizontal="16.0dip">
-                    <com.truelib.common.TextViewCustomFont
+                    <android.widget.TextView
                         android:textSize="17.0dip"
                         android:textColor="@color/clock_main_text_color"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/label" />
-                    <com.truelib.common.ExtendedEditText
+                    <android.widget.EditText
                         android:textSize="17.0dip"
                         android:textColor="@color/clock_sub_text_color"
                         android:textColorHint="@color/clock_hint_text_color"
@@ -201,13 +201,13 @@
                     android:layout_width="fill_parent"
                     android:layout_height="44.0dip"
                     android:paddingHorizontal="16.0dip">
-                    <com.truelib.common.TextViewCustomFont
+                    <android.widget.TextView
                         android:textSize="17.0dip"
                         android:textColor="@color/clock_main_text_color"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/sound" />
-                    <com.truelib.common.TextViewCustomFont
+                    <android.widget.TextView
                         android:textSize="17.0dip"
                         android:textColor="@color/clock_sub_text_color"
                         android:ellipsize="end"
@@ -240,20 +240,20 @@
                     android:layout_width="fill_parent"
                     android:layout_height="44.0dip"
                     android:paddingHorizontal="16.0dip">
-                    <com.truelib.common.TextViewCustomFont
+                    <android.widget.TextView
                         android:textSize="17.0dip"
                         android:textColor="@color/clock_main_text_color"
                         android:layout_width="0.0dip"
                         android:layout_height="wrap_content"
                         android:text="@string/snooze"
                         android:layout_weight="1.0" />
-                    <com.truelib.common.view.IOSSwitchView
+                    <android.widget.Switch
                         android:id="@id/enable_snooze"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                 </LinearLayout>
             </LinearLayout>
-            <com.truelib.common.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="17.0dip"
                 android:textColor="@color/red_color"
                 android:gravity="center"

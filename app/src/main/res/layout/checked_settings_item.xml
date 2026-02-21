@@ -14,7 +14,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-        <com.truelib.settings.custom.TextCustomFont
+        <android.widget.TextView
             android:textSize="@dimen/medium_text_size"
             android:textColor="@color/color_content_1st"
             android:gravity="center_vertical"

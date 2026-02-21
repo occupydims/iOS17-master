@@ -25,7 +25,7 @@
             app:layout_constraintEnd_toEndOf="@id/wv_sec"
             app:layout_constraintStart_toStartOf="@id/wv_hour"
             app:layout_constraintTop_toTopOf="@id/wv_hour" />
-        <com.truelib.common.view.wheel.Wheel3DView
+        <android.widget.NumberPicker
             android:id="@id/wv_hour"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
@@ -33,7 +33,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintWidth_percent="0.25"
             style="@style/DatePickerStyle" />
-        <com.truelib.common.view.wheel.Wheel3DView
+        <android.widget.NumberPicker
             android:id="@id/wv_min"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
@@ -42,7 +42,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintWidth_percent="0.25"
             style="@style/DatePickerStyle" />
-        <com.truelib.common.view.wheel.Wheel3DView
+        <android.widget.NumberPicker
             android:id="@id/wv_sec"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintWidth_percent="0.25"
             style="@style/DatePickerStyle" />
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textColor="@color/white"
             android:id="@id/textView"
             android:layout_width="wrap_content"
@@ -59,7 +59,7 @@
             app:layout_constraintEnd_toEndOf="@id/wv_hour"
             app:layout_constraintStart_toStartOf="@id/wv_hour"
             app:layout_constraintTop_toBottomOf="@id/wv_hour" />
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textColor="@color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -67,7 +67,7 @@
             app:layout_constraintEnd_toEndOf="@id/wv_min"
             app:layout_constraintStart_toStartOf="@id/wv_min"
             app:layout_constraintTop_toBottomOf="@id/wv_min" />
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textColor="@color/white"
             android:id="@id/textView2"
             android:layout_width="wrap_content"
@@ -76,7 +76,7 @@
             app:layout_constraintEnd_toEndOf="@id/wv_sec"
             app:layout_constraintStart_toStartOf="@id/wv_sec"
             app:layout_constraintTop_toBottomOf="@id/wv_sec" />
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:enabled="false"
             android:textSize="15.0dip"
             android:textColor="@color/text_color"
@@ -89,7 +89,7 @@
             android:text="@string/cancel"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/wv_hour" />
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="15.0dip"
             android:textColor="@color/clock_start_text_color"
             android:gravity="center"

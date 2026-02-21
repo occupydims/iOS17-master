@@ -26,7 +26,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
-            <com.truelib.common.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="18.5sp"
                 android:textColor="@color/pro_main_text"
                 android:id="@id/txt_name_1"
@@ -47,7 +47,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@id/txt_name_1"
                 app:layout_constraintTop_toTopOf="parent">
-                <com.truelib.common.TextViewCustomFont
+                <android.widget.TextView
                     android:textSize="12.5sp"
                     android:textColor="@color/pro_main_text"
                     android:gravity="end"
@@ -59,7 +59,7 @@
                     android:gravity="end|center"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content">
-                    <com.truelib.common.TextViewCustomFont
+                    <android.widget.TextView
                         android:textSize="14.199982sp"
                         android:textColor="@color/pro_sub_text"
                         android:gravity="end"
@@ -67,7 +67,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="8.0dip" />
-                    <com.truelib.common.TextViewCustomFont
+                    <android.widget.TextView
                         android:textSize="16.75sp"
                         android:textColor="@color/pro_main_text"
                         android:gravity="end"
@@ -78,7 +78,7 @@
                 </LinearLayout>
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="11.0sp"
             android:textColor="@color/subsc_premium_color"
             android:gravity="center"
@@ -111,7 +111,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/item_1">
-            <com.truelib.common.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="18.5sp"
                 android:textColor="@color/pro_main_text"
                 android:id="@id/txt_name_2"
@@ -132,7 +132,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@id/txt_name_2"
                 app:layout_constraintTop_toTopOf="parent">
-                <com.truelib.common.TextViewCustomFont
+                <android.widget.TextView
                     android:textSize="12.5sp"
                     android:textColor="@color/pro_main_text"
                     android:gravity="end"
@@ -144,7 +144,7 @@
                     android:gravity="end|center"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content">
-                    <com.truelib.common.TextViewCustomFont
+                    <android.widget.TextView
                         android:textSize="14.199982sp"
                         android:textColor="@color/pro_sub_text"
                         android:gravity="end"
@@ -152,7 +152,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="8.0dip" />
-                    <com.truelib.common.TextViewCustomFont
+                    <android.widget.TextView
                         android:textSize="16.75sp"
                         android:textColor="@color/pro_main_text"
                         android:gravity="end"
@@ -163,7 +163,7 @@
                 </LinearLayout>
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="16.75sp"
             android:textColor="@color/white"
             android:gravity="center"
@@ -187,7 +187,7 @@
             android:layout_marginRight="32.0dip"
             android:layout_marginHorizontal="32.0dip"
             app:layout_constraintTop_toBottomOf="@id/btn_continue">
-            <com.truelib.common.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="12.5sp"
                 android:textColor="@color/subsc_sub_text_color"
                 android:gravity="center"
@@ -196,7 +196,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/auto_renew_description" />
-            <com.truelib.common.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="12.5sp"
                 android:textColor="@color/subsc_sub_text_color"
                 android:gravity="center"
@@ -205,7 +205,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/auto_renew_description_with_trial" />
-            <com.truelib.common.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="12.5sp"
                 android:textColor="@color/subsc_sub_text_color"
                 android:gravity="center"
@@ -213,7 +213,7 @@
                 android:visibility="invisible"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content" />
-            <com.truelib.common.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="12.5sp"
                 android:textColor="@color/subsc_sub_text_color"
                 android:gravity="center"
@@ -222,7 +222,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content" />
         </FrameLayout>
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="11.0sp"
             android:textColor="@color/subsc_premium_color"
             android:gravity="center"
@@ -251,7 +251,7 @@
             android:layout_marginHorizontal="@dimen/subsc_content_padding_horizontal"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toBottomOf="@id/txt_pack_description_container">
-            <com.truelib.common.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="12.0sp"
                 android:textColor="@color/ios_button_color"
                 android:id="@id/text_privacy"
@@ -268,7 +268,7 @@
                 app:layout_constraintEnd_toStartOf="@id/text_restore"
                 app:layout_constraintStart_toEndOf="@id/text_privacy"
                 app:layout_constraintTop_toTopOf="parent" />
-            <com.truelib.common.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="12.0sp"
                 android:textColor="@color/ios_button_color"
                 android:id="@id/text_restore"
@@ -292,7 +292,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/ic_error_payment"
             android:importantForAccessibility="no" />
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="14.0sp"
             android:textColor="@color/subsc_sub_text_color"
             android:layout_width="wrap_content"
@@ -300,7 +300,7 @@
             android:layout_marginTop="24.0dip"
             android:text="@string/error_payment"
             android:textAlignment="center" />
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="12.0sp"
             android:textColor="@android:color/white"
             android:gravity="center"

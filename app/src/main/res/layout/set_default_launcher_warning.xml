@@ -19,7 +19,7 @@
             android:layout_marginStart="@dimen/medium_margin"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-        <com.android.launcher3.settings.custom.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="16.0dip"
             android:id="@id/title"
             android:layout_width="0.0dip"
@@ -32,7 +32,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/settings_icon"
             app:layout_constraintTop_toTopOf="parent" />
-        <com.android.launcher3.settings.custom.TextViewCustomFont
+        <android.widget.TextView
             android:textColor="#993c3c43"
             android:id="@id/description"
             android:layout_width="0.0dip"
@@ -52,7 +52,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/description" />
-        <com.android.launcher3.settings.custom.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="16.0dip"
             android:textColor="#ff007aff"
             android:gravity="center"

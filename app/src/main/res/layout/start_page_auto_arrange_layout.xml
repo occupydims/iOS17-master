@@ -74,13 +74,13 @@
                 android:maxLines="1"
                 android:layout_weight="1.0"
                 android:layout_marginEnd="8.0dip" />
-            <com.truelib.common.view.IOSSwitchView
+            <android.widget.Switch
                 android:id="@id/auto_arrange_switch"
                 android:layout_width="51.0dip"
                 android:layout_height="wrap_content" />
         </LinearLayout>
     </LinearLayout>
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="@dimen/text_size_title_start_page"
         android:textColor="#ff000000"
         android:ellipsize="end"
@@ -97,7 +97,7 @@
         app:layout_constraintBottom_toTopOf="@id/page_description"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="@dimen/text_size_des_start_page"
         android:textColor="@color/color_des_item_start_page"
         android:ellipsize="end"

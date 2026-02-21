@@ -39,7 +39,7 @@
                     android:src="@drawable/wallpaper_preview_icons" />
             </LinearLayout>
         </FrameLayout>
-        <com.truelib.settings.custom.SafeScrollView
+        <android.widget.ScrollView
             android:id="@id/scroll_container"
             android:paddingTop="@dimen/small_margin"
             android:paddingBottom="@dimen/small_margin"
@@ -59,7 +59,7 @@
                 android:layout_marginTop="@dimen/small_margin"
                 android:layout_marginRight="@dimen/medium_margin"
                 android:layout_marginHorizontal="@dimen/medium_margin">
-                <com.truelib.settings.custom.TextCustomFont
+                <android.widget.TextView
                     android:textSize="@dimen/medium_text_size"
                     android:textColor="@color/color_content_1st"
                     android:ellipsize="end"
@@ -97,7 +97,7 @@
                     android:background="@color/divider"
                     android:layout_width="fill_parent"
                     android:layout_height="0.5dip" />
-                <com.truelib.settings.custom.TextCustomFont
+                <android.widget.TextView
                     android:textSize="@dimen/medium_text_size"
                     android:textColor="@color/color_content_1st"
                     android:ellipsize="end"
@@ -119,7 +119,7 @@
                     android:background="@color/divider"
                     android:layout_width="fill_parent"
                     android:layout_height="0.5dip" />
-                <com.truelib.settings.custom.TextCustomFont
+                <android.widget.TextView
                     android:textSize="@dimen/medium_text_size"
                     android:textColor="@color/color_content_1st"
                     android:ellipsize="end"
@@ -141,7 +141,7 @@
                     android:background="@color/divider"
                     android:layout_width="fill_parent"
                     android:layout_height="0.5dip" />
-                <com.truelib.settings.custom.TextCustomFont
+                <android.widget.TextView
                     android:textSize="@dimen/medium_text_size"
                     android:textColor="@color/color_content_1st"
                     android:ellipsize="end"
@@ -163,7 +163,7 @@
                     android:background="@color/divider"
                     android:layout_width="fill_parent"
                     android:layout_height="0.5dip" />
-                <com.truelib.settings.custom.TextCustomFont
+                <android.widget.TextView
                     android:textSize="@dimen/medium_text_size"
                     android:textColor="@color/color_content_1st"
                     android:ellipsize="end"
@@ -182,6 +182,6 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/auto_arrange" />
             </LinearLayout>
-        </com.truelib.settings.custom.SafeScrollView>
+        </android.widget.ScrollView>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>

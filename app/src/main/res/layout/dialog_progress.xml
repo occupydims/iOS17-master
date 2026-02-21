@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="18.0dip"
         android:textColor="@color/black"
         android:gravity="center"
@@ -19,7 +19,7 @@
         android:layout_marginHorizontal="32.0dip"
         app:customFont="6"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="15.0dip"
         android:textColor="@color/black"
         android:gravity="center"

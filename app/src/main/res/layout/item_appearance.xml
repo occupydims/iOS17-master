@@ -8,7 +8,7 @@
     android:layout_height="wrap_content"
     android:paddingHorizontal="16.0dip"
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="16.75sp"
         android:textColor="@color/appearance_text_color"
         android:id="@id/tv_title"

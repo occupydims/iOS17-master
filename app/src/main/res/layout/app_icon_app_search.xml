@@ -8,7 +8,7 @@
     android:paddingHorizontal="8.0dip"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.android.launcher3.BubbleTextView
+    <android.widget.TextView
         android:orientation="vertical"
         android:id="@id/app_bubble"
         android:clipToPadding="false"
@@ -23,7 +23,7 @@
             android:id="@id/app_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
-        <com.android.launcher3.settings.custom.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="16.0dip"
             android:textColor="@android:color/white"
             android:ellipsize="end"
@@ -58,8 +58,8 @@
             android:visibility="gone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
-    </com.android.launcher3.BubbleTextView>
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    </android.widget.TextView>
+    <android.widget.TextView
         android:textSize="16.0dip"
         android:textColor="#ffffffff"
         android:ellipsize="end"

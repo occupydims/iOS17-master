@@ -35,7 +35,7 @@
             android:src="@drawable/back_icon"
             app:tint="@color/theme_neutrals_white" />
     </LinearLayout>
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="18.5dip"
         android:textColor="@color/theme_neutrals_white"
         android:ellipsize="end"
@@ -80,7 +80,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/bg_buy_coin" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="24.0dip"
         android:textColor="@color/theme_neutrals_white"
         android:id="@id/owner_coin"
@@ -111,7 +111,7 @@
         android:layout_marginBottom="8.0dip"
         android:layout_marginHorizontal="10.0dip"
         app:layout_constraintBottom_toBottomOf="parent">
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="12.0dip"
             android:textColor="@color/ios_button_color"
             android:gravity="center"
@@ -133,7 +133,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="12.0dip"
             android:textColor="@color/ios_button_color"
             android:gravity="center"
@@ -167,7 +167,7 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_error_payment"
                 android:importantForAccessibility="no" />
-            <com.truelib.common.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="14.0dip"
                 android:textColor="@color/subsc_sub_text_color"
                 android:gravity="center"
@@ -176,7 +176,7 @@
                 android:layout_marginTop="24.0dip"
                 android:text="@string/error_payment"
                 android:textAlignment="center" />
-            <com.truelib.common.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="12.0dip"
                 android:textColor="@android:color/white"
                 android:gravity="center"

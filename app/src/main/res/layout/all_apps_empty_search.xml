@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="20.0dip"
         android:textColor="#eeffffff"
         android:gravity="start"
@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:drawableTop="@drawable/ic_allapps_empty_search"
         app:customFont="2" />
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="15.0dip"
         android:textColor="#eeffffff"
         android:gravity="center"

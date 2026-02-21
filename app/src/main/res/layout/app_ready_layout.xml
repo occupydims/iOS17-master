@@ -40,7 +40,7 @@
                 android:alpha="0.5"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
-            <com.android.launcher3.settings.custom.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="20.0dip"
                 android:textColor="@color/pro_main_text"
                 android:id="@id/title"
@@ -52,7 +52,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/close_btn" />
-            <com.android.launcher3.settings.custom.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="14.0dip"
                 android:textColor="@color/pro_main_text"
                 android:gravity="center"
@@ -67,7 +67,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/title" />
-            <com.android.launcher3.settings.custom.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="14.0dip"
                 android:textColor="@color/blue_color"
                 android:ellipsize="end"
@@ -89,7 +89,7 @@
                 app:layout_constraintEnd_toStartOf="@id/go_back_btn"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/content_app_ready" />
-            <com.android.launcher3.settings.custom.TextViewCustomFont
+            <android.widget.TextView
                 android:textSize="14.0dip"
                 android:textColor="@color/blue_color"
                 android:ellipsize="end"

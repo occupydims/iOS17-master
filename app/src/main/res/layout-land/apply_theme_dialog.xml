@@ -20,7 +20,7 @@
         android:contentDescription="@null"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="18.0dip"
         android:textColor="@color/theme_text_primary"
         android:gravity="start"
@@ -33,7 +33,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/img_dialog"
         app:layout_constraintTop_toTopOf="@id/img_dialog" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="16.0dip"
         android:textColor="@color/theme_text_secondary"
         android:gravity="start"
@@ -56,7 +56,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@id/content_apply"
         app:layout_constraintTop_toBottomOf="@id/content_apply">
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="16.0dip"
             android:textColor="@color/white"
             android:gravity="center"
@@ -83,7 +83,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@id/free_with_ad"
         app:layout_constraintTop_toBottomOf="@id/free_with_ad">
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="16.0dip"
             android:textColor="@color/white"
             android:gravity="center"

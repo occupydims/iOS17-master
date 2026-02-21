@@ -39,7 +39,7 @@
         app:lottie_autoPlay="false"
         app:lottie_loop="true"
         app:lottie_rawRes="@raw/new_anim" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="12.5dip"
         android:textColor="@color/icon_pack_text"
         android:ellipsize="end"

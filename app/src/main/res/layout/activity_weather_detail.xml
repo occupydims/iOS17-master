@@ -6,11 +6,11 @@
     app:layoutDescription="@xml/weather_animation"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.android.launcher3.feature.weather.view.BackgroundAnim
+    <android.widget.FrameLayout
         android:id="@id/viewAnim"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" />
-    <com.android.launcher3.views.SafeNestedScrollView
+    <androidx.core.widget.NestedScrollView
         android:id="@id/scroll_view"
         android:clipToPadding="false"
         android:layout_width="0.0dip"
@@ -88,7 +88,7 @@
                 android:overScrollMode="never"
                 app:layout_behavior="@string/appbar_scrolling_view_behavior" />
         </LinearLayout>
-    </com.android.launcher3.views.SafeNestedScrollView>
+    </androidx.core.widget.NestedScrollView>
     <TextView
         android:textSize="16.0dip"
         android:textColor="@color/white"

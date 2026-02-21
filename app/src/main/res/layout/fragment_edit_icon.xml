@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.truelib.themes.view.IOSTabView
+    <android.widget.LinearLayout
         android:id="@id/tab_view"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

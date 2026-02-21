@@ -10,7 +10,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@id/option_container">
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="@dimen/option_title_text_size"
             android:gravity="center"
             android:id="@id/title"
@@ -22,7 +22,7 @@
             android:layout_marginHorizontal="16.0dip"
             app:customFont="2"
             app:layout_constraintTop_toTopOf="parent" />
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="@dimen/option_title_text_size"
             android:gravity="center"
             android:id="@id/desc"

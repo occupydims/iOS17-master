@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.android.launcher3.widget.WidgetsAppSheet
+<android.widget.FrameLayout
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:layout_marginLeft="-1.0dip"
@@ -10,4 +10,4 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <include
         layout="@layout/widget_app_sheet_content" />
-</com.android.launcher3.widget.WidgetsAppSheet>
+</android.widget.FrameLayout>

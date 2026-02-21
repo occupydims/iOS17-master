@@ -9,7 +9,7 @@
     <include
         android:id="@id/action_bar_custom"
         layout="@layout/action_bar_settings" />
-    <com.truelib.settings.custom.SafeScrollView
+    <android.widget.ScrollView
         android:paddingBottom="@dimen/small_margin"
         android:layout_width="fill_parent"
         android:layout_height="0.0dip"
@@ -19,7 +19,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
-            <com.truelib.settings.custom.TextCustomFont
+            <android.widget.TextView
                 android:textSize="@dimen/small_text_size"
                 android:textColor="@color/content_3rd"
                 android:id="@id/title"
@@ -45,7 +45,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/title">
-                <com.truelib.settings.custom.TextCustomFont
+                <android.widget.TextView
                     android:textSize="14.0dip"
                     android:textColor="@color/color_content_1st"
                     android:ellipsize="end"
@@ -61,7 +61,7 @@
                     app:layout_constraintEnd_toStartOf="@id/switch_use_gesture"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
-                <com.truelib.settingview.view.OsSwitchView
+                <android.widget.Switch
                     android:id="@id/switch_use_gesture"
                     android:duplicateParentState="true"
                     android:layout_width="wrap_content"
@@ -71,7 +71,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="@id/swipe_up_gesture" />
             </androidx.constraintlayout.widget.ConstraintLayout>
-            <com.truelib.settings.custom.TextCustomFont
+            <android.widget.TextView
                 android:textSize="@dimen/small_text_size"
                 android:textColor="@color/content_3rd"
                 android:id="@id/des_ai_gesture"
@@ -88,7 +88,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/contain_ai_gesture" />
-            <com.truelib.settings.custom.TextCustomFont
+            <android.widget.TextView
                 android:textSize="14.0dip"
                 android:textColor="@color/color_content_brand"
                 android:id="@id/restore_purchase"
@@ -110,5 +110,5 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/des_ai_gesture" />
         </androidx.constraintlayout.widget.ConstraintLayout>
-    </com.truelib.settings.custom.SafeScrollView>
+    </android.widget.ScrollView>
 </LinearLayout>

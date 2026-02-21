@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.android.launcher3.views.GlassFrameLayout
+<android.widget.FrameLayout
     android:id="@id/container"
     android:paddingBottom="40.0dip"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.android.launcher3.views.TopRoundedCornerView
+    <android.widget.FrameLayout
         android:id="@id/spring_view"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12.0dip"
             android:layout_below="@id/top_bar">
-            <com.android.launcher3.BubbleTextView
+            <android.widget.TextView
                 android:layout_gravity="center_vertical"
                 android:id="@id/icon"
                 android:layout_width="50.0dip"
@@ -35,7 +35,7 @@
                     android:id="@id/app_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
-                <com.android.launcher3.settings.custom.TextViewCustomFont
+                <android.widget.TextView
                     android:textSize="13.0dip"
                     android:textColor="@android:color/white"
                     android:ellipsize="end"
@@ -70,8 +70,8 @@
                     android:visibility="gone"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
-            </com.android.launcher3.BubbleTextView>
-            <com.android.launcher3.settings.custom.TextViewCustomFont
+            </android.widget.TextView>
+            <android.widget.TextView
                 android:textSize="18.0dip"
                 android:textColor="@color/widget_app_label"
                 android:layout_gravity="center_vertical"
@@ -99,7 +99,7 @@
             android:layout_marginTop="24.0dip"
             android:layout_above="@id/add_widget_container"
             android:layout_below="@id/app_info" />
-        <com.android.launcher3.views.GlassLinearLayout
+        <android.widget.LinearLayout
             android:gravity="center"
             android:orientation="horizontal"
             android:id="@id/add_widget_container"
@@ -122,6 +122,6 @@
                 android:layout_height="wrap_content"
                 android:text="@string/add_widget"
                 android:paddingVertical="18.0dip" />
-        </com.android.launcher3.views.GlassLinearLayout>
-    </com.android.launcher3.views.TopRoundedCornerView>
-</com.android.launcher3.views.GlassFrameLayout>
+        </android.widget.LinearLayout>
+    </android.widget.FrameLayout>
+</android.widget.FrameLayout>

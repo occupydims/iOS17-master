@@ -18,7 +18,7 @@
         android:layout_height="@dimen/system_shortcut_icon_size"
         android:scaleType="fitCenter"
         android:layout_marginStart="@dimen/system_shortcut_margin_start" />
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="14.0dip"
         android:textColor="@color/popup_text_color"
         android:ellipsize="end"

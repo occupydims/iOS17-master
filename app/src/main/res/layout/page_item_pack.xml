@@ -8,7 +8,7 @@
     android:layout_marginHorizontal="@dimen/subsc_pager_item_padding_horizontal"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="12.5dip"
         android:textColor="@color/subsc_text_button_color"
         android:id="@id/subscribed"
@@ -32,7 +32,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="28.0dip"
         android:textColor="@color/pro_pack_color"
         android:gravity="center"
@@ -58,7 +58,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/pack_title">
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="16.75dip"
             android:textColor="@color/subsc_text_color"
             android:id="@id/remove_ads"
@@ -74,7 +74,7 @@
             android:drawableStart="@drawable/remove_ads_basic"
             android:paddingHorizontal="8.0dip"
             android:paddingVertical="4.0dip" />
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="16.75dip"
             android:textColor="@color/subsc_text_color"
             android:id="@id/icon_pack"
@@ -90,7 +90,7 @@
             android:drawableStart="@drawable/remove_ads_basic"
             android:paddingHorizontal="8.0dip"
             android:paddingVertical="4.0dip" />
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="16.75dip"
             android:textColor="@color/subsc_text_color"
             android:id="@id/wallpaper"
@@ -106,7 +106,7 @@
             android:drawableStart="@drawable/remove_ads_basic"
             android:paddingHorizontal="8.0dip"
             android:paddingVertical="4.0dip" />
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="16.75dip"
             android:textColor="@color/subsc_text_color"
             android:id="@id/ai_credit"
@@ -123,7 +123,7 @@
             android:drawableStart="@drawable/remove_ads_basic"
             android:paddingHorizontal="8.0dip"
             android:paddingVertical="4.0dip" />
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="16.75dip"
             android:textColor="@color/subsc_text_color"
             android:id="@id/ai_image_credit"
@@ -152,7 +152,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/pack_items">
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="12.5dip"
             android:textColor="@color/white"
             android:id="@id/text_free_trail_year"
@@ -160,7 +160,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true" />
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="@dimen/item_pack_button_text_size"
             android:textColor="@color/subsc_text_button_color"
             android:id="@id/year_button"
@@ -181,7 +181,7 @@
             android:importantForAccessibility="no"
             android:layout_alignParentEnd="true" />
     </RelativeLayout>
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="9.0dip"
         android:textColor="@color/subsc_premium_color"
         android:gravity="center"
@@ -223,7 +223,7 @@
             android:layout_alignBottom="@id/text_free_trail_month"
             android:importantForAccessibility="no"
             android:layout_alignParentEnd="true" />
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="12.5dip"
             android:textColor="#ff000000"
             android:id="@id/text_free_trail_month"
@@ -232,7 +232,7 @@
             android:layout_height="wrap_content"
             android:layout_toStartOf="@id/iv_icon_month"
             android:layout_alignParentStart="true" />
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="@dimen/item_pack_button_text_size"
             android:textColor="@color/subsc_text_color"
             android:id="@id/month_button"
@@ -258,7 +258,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/pack_items">
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="14.199982dip"
             android:textColor="@color/subsc_sub_text_color"
             android:id="@id/tv_current_plan"
@@ -266,7 +266,7 @@
             android:layout_height="wrap_content"
             android:text="@string/current_plan"
             app:customFont="2" />
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="16.75dip"
             android:textColor="@color/subsc_sub_text_color"
             android:id="@id/tv_current_plan_price"
@@ -274,7 +274,7 @@
             android:layout_height="wrap_content"
             app:customFont="2" />
     </LinearLayout>
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="12.5dip"
         android:textColor="@color/subsc_sub_text_color"
         android:gravity="center"

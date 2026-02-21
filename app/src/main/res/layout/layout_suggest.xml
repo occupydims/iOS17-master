@@ -9,7 +9,7 @@
     android:paddingHorizontal="8.0dip"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="14.0dip"
         android:textColor="@color/app_search_title_primary"
         android:ellipsize="end"
@@ -28,7 +28,7 @@
         app:layout_constraintEnd_toStartOf="@id/show_more"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="14.0dip"
         android:textColor="@color/app_search_title_secondary"
         android:id="@id/show_more"
@@ -41,7 +41,7 @@
         app:customFont="2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.android.launcher3.views.ExpandableLayout
+    <android.widget.LinearLayout
         android:id="@id/expand_suggestion"
         android:background="@drawable/expand_background"
         android:paddingBottom="12.0dip"

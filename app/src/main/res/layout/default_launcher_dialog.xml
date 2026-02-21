@@ -19,7 +19,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintWidth_percent="0.4" />
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="16.0dip"
         android:textColor="@color/confirm_text_color"
         android:gravity="center"
@@ -37,7 +37,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ic_logo_app" />
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="12.0dip"
         android:textColor="#ff8e8d92"
         android:gravity="center"
@@ -53,7 +53,7 @@
         app:layout_constraintBottom_toTopOf="@id/btn_set_default"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textColor="#ffffffff"
         android:gravity="center"
         android:id="@id/btn_later"
@@ -72,7 +72,7 @@
         app:layout_constraintRight_toLeftOf="@id/btn_set_default"
         app:layout_constraintTop_toTopOf="@id/btn_set_default"
         app:layout_goneMarginBottom="24.0dip" />
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textColor="#ffffffff"
         android:gravity="center"
         android:id="@id/btn_set_default"
@@ -104,7 +104,7 @@
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@id/tv_not_show" />
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="12.0dip"
         android:textColor="#ff8e8d92"
         android:gravity="center"

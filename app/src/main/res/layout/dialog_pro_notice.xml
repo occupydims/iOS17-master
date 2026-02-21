@@ -58,7 +58,7 @@
         app:layout_constraintBottom_toTopOf="@id/remove_effects_button"
         app:layout_constraintEnd_toEndOf="@id/dialog_preview"
         app:layout_constraintStart_toStartOf="@id/dialog_preview">
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="16.0dip"
             android:textColor="@color/white"
             android:gravity="center"

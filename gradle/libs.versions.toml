@@ -34,7 +34,9 @@ build-spotless = { module = "com.diffplug.spotless:spotless-plugin-gradle", vers
 dagger-compiler = { module = "com.google.dagger:dagger-compiler", version.ref = "dagger" }
 dagger-android-processor = { module = "com.google.dagger:dagger-android-processor", version.ref = "dagger" }
 
+facebook-shimmer = "com.facebook.shimmer:shimmer:0.5.0"
 google-material = "com.google.android.material:material:1.11.0"
+google-play-services-ads = "com.google.android.gms:play-services-ads:22.6.0"
 greenrobot-eventbus = "org.greenrobot:eventbus:3.1.1"
 hoko-blur = "io.github.hokofly:hoko-blur:1.4.0"
 
@@ -66,6 +68,7 @@ junit = "junit:junit:4.12"
 mockk = "io.mockk:mockk:1.9.3"
 mockito-core = "org.mockito:mockito-core:2.19.0"
 robolectric = "org.robolectric:robolectric:4.3"
+lottie = "com.airbnb.android:lottie:6.3.0"
 tools-desugar = "com.android.tools:desugar_jdk_libs:1.1.5"
 tools-leakcanary = "com.squareup.leakcanary:leakcanary-android:2.10"
 tools-timber = "com.jakewharton.timber:timber:5.0.1"

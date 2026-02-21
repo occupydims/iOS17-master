@@ -43,7 +43,7 @@
         android:layout_marginEnd="16.0dip"
         app:layout_constraintEnd_toStartOf="@id/btn_sort"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="18.5dip"
         android:ellipsize="end"
         android:id="@id/txt_title"

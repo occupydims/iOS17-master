@@ -166,6 +166,11 @@ dependencies {
     implementation(libs.okhttp)
     implementation(libs.okhttp.logging)
 
+    // UI Libraries
+    implementation(libs.facebook.shimmer)
+    implementation(libs.lottie)
+    implementation(libs.google.play.services.ads)
+
     // Misc.
     implementation(libs.hoko.blur)
     implementation(libs.apache.commons)

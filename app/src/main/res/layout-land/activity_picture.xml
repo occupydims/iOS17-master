@@ -18,7 +18,7 @@
         app:layout_constraintBottom_toBottomOf="@id/action_back"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/action_back" />
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="17.0dip"
         android:textStyle="bold"
         android:textColor="#ff007aff"
@@ -36,7 +36,7 @@
         app:layout_constraintStart_toEndOf="@id/ic_back"
         app:layout_constraintTop_toTopOf="@id/title"
         app:layout_goneMarginStart="16.0dip" />
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="17.0dip"
         android:textStyle="bold"
         android:textColor="#ff000000"
@@ -55,7 +55,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="16.0dip"
         android:textColor="@color/blue_color"
         android:id="@id/choose_image"

@@ -13,7 +13,7 @@
         android:layout_marginRight="36.0dip"
         android:layout_marginHorizontal="36.0dip"
         style="@style/width_match_parent_max_492">
-        <com.android.launcher3.settings.custom.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="18.0dip"
             android:textColor="@color/theme_text_primary"
             android:gravity="center"
@@ -36,7 +36,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/title" />
-        <com.android.launcher3.settings.custom.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="16.0dip"
             android:textColor="@color/theme_text_primary"
             android:gravity="center"
@@ -49,7 +49,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/divider_title" />
-        <com.android.launcher3.settings.custom.TextViewCustomFont
+        <android.widget.TextView
             android:textColor="@color/theme_color_blue"
             android:gravity="center"
             android:id="@id/btn_cancel"
@@ -61,7 +61,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/divider_description"
             app:layout_constraintWidth_percent="0.5" />
-        <com.android.launcher3.settings.custom.TextViewCustomFont
+        <android.widget.TextView
             android:textColor="@color/theme_color_blue"
             android:gravity="center"
             android:id="@id/btn_repair"

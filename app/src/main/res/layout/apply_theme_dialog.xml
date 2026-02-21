@@ -17,7 +17,7 @@
         android:layout_height="@dimen/success_icon_size"
         android:src="@drawable/ic_apply_theme"
         android:contentDescription="@null" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="18.0dip"
         android:textColor="@color/theme_text_primary"
         android:gravity="center"
@@ -27,7 +27,7 @@
         android:layout_marginTop="4.0dip"
         android:text="@string/free_apply_theme"
         app:customFont="2" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="16.0dip"
         android:textColor="@color/theme_text_secondary"
         android:gravity="center"
@@ -44,7 +44,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30.0dip">
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="16.0dip"
             android:textColor="@color/white"
             android:gravity="center"
@@ -69,7 +69,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16.0dip"
         android:layout_marginBottom="20.0dip">
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="16.0dip"
             android:textColor="@color/white"
             android:gravity="center"

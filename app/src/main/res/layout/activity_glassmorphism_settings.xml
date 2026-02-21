@@ -9,7 +9,7 @@
     <include
         android:id="@id/action_bar_custom"
         layout="@layout/action_bar_settings" />
-    <com.truelib.settings.custom.SafeScrollView
+    <android.widget.ScrollView
         android:paddingBottom="@dimen/small_margin"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -19,7 +19,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
-            <com.truelib.settings.custom.TextCustomFont
+            <android.widget.TextView
                 android:textSize="@dimen/small_text_size"
                 android:textColor="@color/text_secondary"
                 android:id="@id/title"
@@ -50,7 +50,7 @@
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content">
-                    <com.truelib.settings.custom.TextCustomFont
+                    <android.widget.TextView
                         android:textSize="@dimen/medium_text_size"
                         android:textColor="@color/text_primary"
                         android:ellipsize="end"
@@ -66,7 +66,7 @@
                         app:layout_constraintEnd_toStartOf="@id/switch_use_glassmorphism"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
-                    <com.truelib.settings.custom.SwitchView
+                    <android.widget.Switch
                         android:id="@id/switch_use_glassmorphism"
                         android:duplicateParentState="true"
                         android:layout_width="@dimen/width_switch_view"
@@ -81,7 +81,7 @@
                         android:layout_height="0.5dip"
                         android:layout_marginStart="@dimen/medium_margin"
                         app:layout_constraintTop_toBottomOf="@id/use_glassmorphism_concept" />
-                    <com.truelib.settings.custom.TextCustomFont
+                    <android.widget.TextView
                         android:textSize="@dimen/medium_text_size"
                         android:textColor="@color/text_primary"
                         android:ellipsize="end"
@@ -97,7 +97,7 @@
                         app:layout_constraintEnd_toStartOf="@id/switch_use_soft_light"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/use_glassmorphism_concept" />
-                    <com.truelib.settings.custom.SwitchView
+                    <android.widget.Switch
                         android:id="@id/switch_use_soft_light"
                         android:duplicateParentState="true"
                         android:layout_width="@dimen/width_switch_view"
@@ -109,5 +109,5 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
         </androidx.constraintlayout.widget.ConstraintLayout>
-    </com.truelib.settings.custom.SafeScrollView>
+    </android.widget.ScrollView>
 </LinearLayout>

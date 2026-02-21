@@ -28,7 +28,7 @@
             android:layout_height="fill_parent"
             android:scaleType="fitXY" />
     </androidx.cardview.widget.CardView>
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="10.0dip"
         android:textColor="@color/white"
         android:id="@id/txt_free"
@@ -71,7 +71,7 @@
         app:layout_constraintBottom_toBottomOf="@id/icon_pack_name"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/icon_pack_name" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="12.5dip"
         android:textStyle="bold"
         android:textColor="@color/icon_pack_text"

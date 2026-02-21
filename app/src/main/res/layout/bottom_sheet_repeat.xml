@@ -5,7 +5,7 @@
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="17.0dip"
         android:textColor="@color/clock_main_text_color"
         android:ellipsize="end"
@@ -24,7 +24,7 @@
         android:paddingVertical="10.0dip"
         app:customFont="2"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="17.0dip"
         android:textColor="@color/clock_selected_color"
         android:id="@id/cancel_button"

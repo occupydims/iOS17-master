@@ -11,14 +11,14 @@
     android:backgroundTint="#3d767680"
     android:layout_marginHorizontal="8.0dip"
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="20.0dip"
         android:textColor="@color/white"
         android:id="@id/preset_value"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="1" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="15.0dip"
         android:textColor="@color/clock_timer_color"
         android:id="@id/preset_format"

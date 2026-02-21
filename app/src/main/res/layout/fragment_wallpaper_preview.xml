@@ -18,7 +18,7 @@
         app:layout_constraintBottom_toBottomOf="@id/wallpaper_text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/wallpaper_text" />
-    <com.truelib.settings.custom.TextCustomFont
+    <android.widget.TextView
         android:textSize="24.0dip"
         android:textColor="@color/color_content_1st"
         android:id="@id/wallpaper_text"
@@ -42,7 +42,7 @@
         android:layout_marginHorizontal="@dimen/wallpaper_margin_horizontal"
         app:layout_constraintHeight_percent="0.55"
         app:layout_constraintTop_toBottomOf="@id/wallpaper_text" />
-    <com.truelib.settings.custom.TextCustomFont
+    <android.widget.TextView
         android:textSize="13.0dip"
         android:textColor="@color/blue_color"
         android:id="@id/set_default_btn"
@@ -69,7 +69,7 @@
         app:layout_constraintEnd_toEndOf="@id/preview_container"
         app:layout_constraintStart_toStartOf="@id/preview_container"
         app:layout_constraintTop_toBottomOf="@id/set_default_btn" />
-    <com.truelib.settings.wallpaper.view.CustomPageIndicator
+    <android.view.View
         android:id="@id/indicator_layout"
         android:layout_width="70.0dip"
         android:layout_height="24.0dip"
@@ -78,7 +78,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/preview_pager" />
-    <com.truelib.settings.custom.TextCustomFont
+    <android.widget.TextView
         android:textSize="14.0dip"
         android:textColor="#ffffffff"
         android:id="@id/set_new_button"
@@ -99,7 +99,7 @@
         app:layout_constraintBottom_toBottomOf="@id/preview_container"
         app:layout_constraintEnd_toEndOf="@id/preview_container"
         app:layout_constraintStart_toStartOf="@id/preview_container" />
-    <com.truelib.settings.custom.TextCustomFont
+    <android.widget.TextView
         android:textColor="@color/main_text"
         android:gravity="center"
         android:id="@id/wallpaper_permission_label"
@@ -117,7 +117,7 @@
         app:layout_constraintStart_toStartOf="@id/preview_container"
         app:layout_constraintTop_toTopOf="@id/preview_container"
         app:layout_constraintVertical_chainStyle="packed" />
-    <com.truelib.settings.custom.TextCustomFont
+    <android.widget.TextView
         android:textColor="@color/main_text"
         android:gravity="center"
         android:id="@id/wallpaper_permission_message"

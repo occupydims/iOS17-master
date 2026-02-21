@@ -55,23 +55,29 @@
             android:layout_height="wrap_content"
             android:layout_above="@+id/folder_bg_blur"
             android:layout_centerHorizontal="true"
-            android:background="@null"
+            android:background="@android:color/transparent"
+            android:ellipsize="end"
+            android:gravity="center"
             android:imeOptions="actionDone"
             android:inputType="textNoSuggestions|textCapSentences"
-            android:paddingTop="16dp"
-            android:paddingBottom="16dp"
+            android:paddingLeft="12dp"
+            android:paddingTop="@dimen/folder_label_padding_top"
+            android:paddingRight="12dp"
+            android:paddingBottom="@dimen/folder_label_padding_top"
+            android:singleLine="true"
             android:text="@string/untitled"
             android:textAlignment="center"
-            android:textColor="?workspaceTextColor"
+            android:textColor="@color/folder_label_color"
+            android:textColorHint="@color/folder_label_hint_color"
             android:textCursorDrawable="@drawable/folder_title_text_cursor"
-            android:textSize="18sp" />
+            android:textSize="@dimen/folder_label_text_size" />
 
         <com.cloudx.ios17.core.customviews.BlurLayout
             android:id="@+id/folder_bg_blur"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            app:blurCornerRadius="12dp">
+            app:blurCornerRadius="@dimen/folder_icon_radius_clip">
 
             <LinearLayout
                 android:id="@+id/folder_apps_background"
@@ -79,20 +85,37 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:background="@drawable/folder_window"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dynamic_grid_cell_padding_x"
+                android:paddingTop="16dp"
+                android:paddingRight="@dimen/dynamic_grid_cell_padding_x">
 
                 <androidx.viewpager.widget.ViewPager
                     android:id="@+id/folder_apps"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:clipToPadding="false" />
 
-                <me.relex.circleindicator.CircleIndicator
-                    android:id="@+id/indicator"
+                <LinearLayout
+                    android:id="@+id/folder_footer"
                     android:layout_width="match_parent"
-                    android:layout_height="24dp"
-                    android:paddingBottom="4dp"
-                    app:ci_drawable="@drawable/dot_on"
-                    app:ci_drawable_unselected="@drawable/dot_off" />
+                    android:layout_height="wrap_content"
+                    android:clipChildren="false"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="12dp"
+                    android:paddingBottom="5dp">
+
+                    <me.relex.circleindicator.CircleIndicator
+                        android:id="@+id/indicator"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/page_indicator_height"
+                        app:ci_drawable="@drawable/dot_on"
+                        app:ci_drawable_unselected="@drawable/dot_off" />
+
+                </LinearLayout>
 
             </LinearLayout>
         </com.cloudx.ios17.core.customviews.BlurLayout>

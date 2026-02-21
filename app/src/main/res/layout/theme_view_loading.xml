@@ -16,7 +16,7 @@
         android:layout_height="@dimen/loading_thumb_size"
         android:layout_marginBottom="6.0dip"
         layout="@layout/theme_loading_layout" />
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="17.0dip"
         android:textStyle="bold"
         android:textColor="@color/theme_color_brown"

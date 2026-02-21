@@ -15,7 +15,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="18.5dip"
         android:textColor="@color/theme_text_primary"
         android:gravity="center"
@@ -30,7 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/image_content" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="16.75dip"
         android:textColor="@color/theme_text_secondary"
         android:gravity="center"
@@ -64,7 +64,7 @@
         android:paddingHorizontal="24.0dip"
         android:paddingVertical="13.0dip"
         app:layout_constraintTop_toBottomOf="@id/txt_description">
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="17.0dip"
             android:textColor="@color/white"
             android:id="@id/txt_watch_ad"
@@ -92,7 +92,7 @@
         android:paddingVertical="13.0dip"
         app:layout_constraintTop_toBottomOf="@id/btn_watch_ad"
         app:layout_goneMarginTop="30.0dip">
-        <com.truelib.common.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="17.0dip"
             android:textColor="@color/white"
             android:layout_width="wrap_content"

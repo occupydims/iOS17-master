@@ -29,7 +29,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-        <com.android.launcher3.settings.custom.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="16.0dip"
             android:textColor="@android:color/white"
             android:ellipsize="end"
@@ -46,7 +46,7 @@
             app:layout_constraintStart_toEndOf="@id/icMimeType"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_chainStyle="packed" />
-        <com.android.launcher3.settings.custom.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="12.0dip"
             android:textColor="@color/app_search_title_secondary"
             android:ellipsize="end"
@@ -62,7 +62,7 @@
             app:layout_constraintStart_toEndOf="@id/icMimeType"
             app:layout_constraintTop_toBottomOf="@id/fileName"
             app:layout_constraintVertical_chainStyle="packed" />
-        <com.android.launcher3.settings.custom.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="12.0dip"
             android:textColor="@color/app_search_title_secondary"
             android:ellipsize="end"
@@ -108,7 +108,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-        <com.android.launcher3.settings.custom.TextViewCustomFont
+        <android.widget.TextView
             android:textSize="14.0dip"
             android:textColor="@color/white"
             android:ellipsize="end"

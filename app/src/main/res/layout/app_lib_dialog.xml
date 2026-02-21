@@ -9,7 +9,7 @@
         android:id="@id/constraintLayout"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content">
-        <com.truelib.settings.custom.TextCustomFont
+        <android.widget.TextView
             android:textSize="@dimen/text_size_16"
             android:textColor="@color/blue_color"
             android:gravity="center"
@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="6.0dip"
             android:text="@string/default_name" />
-        <com.truelib.settings.custom.TextCustomFont
+        <android.widget.TextView
             android:textSize="@dimen/text_size_16"
             android:textColor="@color/main_text"
             android:ellipsize="end"
@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:text="@string/select_folder"
             app:customFont="4" />
-        <com.truelib.settings.custom.TextCustomFont
+        <android.widget.TextView
             android:textSize="@dimen/text_size_16"
             android:textColor="@color/blue_color"
             android:gravity="center"

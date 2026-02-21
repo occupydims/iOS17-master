@@ -10,7 +10,7 @@
         android:clipToPadding="false"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="20.0dip"
         android:textColor="@color/main_text"
         android:gravity="center"
@@ -26,7 +26,7 @@
         app:layout_constraintBottom_toTopOf="@id/no_permission"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="17.0dip"
         android:textColor="@color/sub_text_color"
         android:gravity="center"
@@ -41,7 +41,7 @@
         android:layout_marginHorizontal="32.0dip"
         app:layout_constraintBottom_toTopOf="@id/access_button"
         app:layout_constraintTop_toBottomOf="@id/empty_text" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="17.0dip"
         android:textColor="@color/button_blue"
         android:id="@id/access_button"

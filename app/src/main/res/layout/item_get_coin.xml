@@ -22,7 +22,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="16.0dip"
         android:textColor="@color/theme_text_primary"
         android:id="@id/name_action"
@@ -37,7 +37,7 @@
         app:layout_constraintEnd_toStartOf="@id/bonus_coin"
         app:layout_constraintStart_toEndOf="@id/ic_action"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.truelib.common.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="16.0dip"
         android:textColor="@color/theme_neutrals_white"
         android:gravity="center"

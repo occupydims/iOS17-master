@@ -17,7 +17,7 @@
         android:layout_marginBottom="4.0dip"
         android:src="@drawable/ic_ios_spinner_white"
         app:tint="@color/pro_main_text" />
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="14.0dip"
         android:textStyle="bold"
         android:textColor="@color/pro_main_text"

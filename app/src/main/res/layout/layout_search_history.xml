@@ -7,7 +7,7 @@
     android:layout_marginHorizontal="8.0dip"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="14.0dip"
         android:textColor="@color/app_search_title_primary"
         android:ellipsize="end"
@@ -25,7 +25,7 @@
         app:layout_constraintEnd_toStartOf="@id/delete"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <com.android.launcher3.settings.custom.TextViewCustomFont
+    <android.widget.TextView
         android:textSize="14.0dip"
         android:textColor="@color/app_search_title_secondary"
         android:id="@id/delete"
@@ -44,7 +44,7 @@
         android:layout_width="fill_parent"
         android:layout_height="0.5dip"
         app:layout_constraintTop_toBottomOf="@id/title" />
-    <com.android.launcher3.appsearch.v2.ui.HistoryFlowLayout
+    <android.widget.FrameLayout
         android:id="@id/apps_history"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
