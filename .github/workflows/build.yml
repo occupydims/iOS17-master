@@ -1,0 +1,82 @@
+name: Build & Release APK
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 11
+        uses: actions/setup-java@v4
+        with:
+          java-version: '11'
+          distribution: 'temurin'
+
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install Android SDK components
+        run: |
+          sdkmanager "platforms;android-32" "build-tools;32.0.0" "platform-tools" "ndk;25.2.9519653"
+
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+
+      - name: Configure signing for CI
+        run: |
+          echo "keyStorePath=/keystore/platform.keystore" > local.properties
+          echo "keyStorePassword=android" >> local.properties
+          echo "keyAlias=platform" >> local.properties
+          echo "keyPassword=android" >> local.properties
+          echo "appendDebugSuffix=false" >> local.properties
+
+      - name: Build release APKs (arm64-only)
+        run: ./gradlew assembleApiQRelease assembleApiRRelease assembleApiSRelease
+
+      - name: Generate version info
+        id: version
+        run: |
+          VERSION=$(grep -oP 'versionName = "\K[^"]+' app/build.gradle.kts || echo "1.15.0")
+          DATE=$(date +'%Y%m%d-%H%M')
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "date=$DATE" >> $GITHUB_OUTPUT
+          echo "tag=v${VERSION}-${DATE}" >> $GITHUB_OUTPUT
+
+      - name: Collect APK files
+        run: |
+          mkdir -p release-apks
+          find app/build/outputs/apk -name "*.apk" -path "*/release/*" -exec cp {} release-apks/ \;
+          ls -la release-apks/
+
+      - name: Upload APK artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-apks-arm64
+          path: release-apks/*.apk
+          retention-days: 30
+
+      - name: Create GitHub Release
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.tag }}
+          name: iOS17 Launcher ${{ steps.version.outputs.version }} (${{ steps.version.outputs.date }})
+          body: |
+            Automated arm64-only release build from commit ${{ github.sha }}
+
+            **Architecture:** arm64-v8a only
+            **Build variants:** apiQ, apiR, apiS (Android 10+, 11+, 12+)
+          files: release-apks/*.apk
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

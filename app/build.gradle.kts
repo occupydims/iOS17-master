@@ -44,6 +44,10 @@ android {
         renderscriptTargetApi = 28
         renderscriptSupportModeEnabled = true
         setProperty("archivesBaseName", "BlissLauncher-$versionName")
+
+        ndk {
+            abiFilters += listOf("arm64-v8a")
+        }
     }
 
     buildFeatures { buildConfig = true }
