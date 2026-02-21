@@ -597,7 +597,6 @@
     <attr name="dayStyle" format="reference" />
     <attr name="dayTodayStyle" format="reference" />
     <attr name="defaultDuration" format="integer" />
-    <attr name="defaultLayoutId" format="reference" />
     <attr name="defaultMarginsEnabled" format="boolean" />
     <attr name="defaultNavHost" format="boolean" />
     <attr name="defaultQueryHint" format="string" />
@@ -992,7 +991,6 @@
     <attr name="iconSize" format="dimension" />
     <attr name="iconSizeOverride" format="dimension" />
     <attr name="iconStartPadding" format="dimension" />
-    <attr name="iconTextSize" format="float" />
     <attr name="iconTint" format="color" />
     <attr name="iconTintMode">
         <enum name="src_over" value="3" />
@@ -1273,7 +1271,6 @@
     <attr name="layout_goneMarginRight" format="dimension" />
     <attr name="layout_goneMarginStart" format="dimension" />
     <attr name="layout_goneMarginTop" format="dimension" />
-    <attr name="layout_ignoreInsets" format="boolean" />
     <attr name="layout_insetEdge">
         <enum name="none" value="0" />
         <enum name="top" value="48" />
@@ -1469,12 +1466,10 @@
     <attr name="methodName" format="string" />
     <attr name="mimeType" format="string" />
     <attr name="minHeight" format="dimension" />
-    <attr name="minHeightDps" format="float" />
     <attr name="minHideDelay" format="integer" />
     <attr name="minSeparation" format="dimension" />
     <attr name="minTouchTargetSize" format="dimension" />
     <attr name="minWidth" format="dimension" />
-    <attr name="minWidthDps" format="float" />
     <attr name="mock_diagonalsColor" format="color" />
     <attr name="mock_label" format="string" />
     <attr name="mock_labelBackgroundColor" format="color" />
@@ -1550,7 +1545,6 @@
     <attr name="motion_triggerOnCollision" format="reference" />
     <attr name="moveWhenScrollAtTop" format="boolean" />
     <attr name="multiChoiceItemLayout" format="reference" />
-    <attr name="name" format="string" />
     <attr name="nameAction" format="string" />
     <attr name="navGraph" format="reference" />
     <attr name="navigationContentDescription" format="string" />
@@ -1574,15 +1568,10 @@
     <attr name="nextIcon" format="integer" />
     <attr name="next_button" format="integer" />
     <attr name="nullable" format="boolean" />
-    <attr name="numColumns" format="integer" />
-    <attr name="numFolderColumns" format="integer" />
-    <attr name="numFolderRows" format="integer" />
-    <attr name="numHotseatIcons" format="integer" />
     <attr name="numMaxColumns" format="integer" />
     <attr name="numMaxRows" format="integer" />
     <attr name="numMinColumns" format="integer" />
     <attr name="numMinRows" format="integer" />
-    <attr name="numRows" format="integer" />
     <attr name="number" format="integer" />
     <attr name="numberStep" format="integer" />
     <attr name="numericModifiers">
@@ -1647,7 +1636,6 @@
     <attr name="paddingStartSystemWindowInsets" format="boolean" />
     <attr name="paddingTopNoTitle" format="dimension" />
     <attr name="paddingTopSystemWindowInsets" format="boolean" />
-    <attr name="pageIndicator" format="reference" />
     <attr name="panelBackground" format="reference" />
     <attr name="panelMenuListTheme" format="reference" />
     <attr name="panelMenuListWidth" format="dimension" />
