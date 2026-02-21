@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.widget.FrameLayoutIcon
+<FrameLayout
     android:orientation="vertical"
     android:focusable="true"
     android:clipToPadding="false"
@@ -40,4 +40,4 @@
         android:visibility="gone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-</android.widget.FrameLayoutIcon>
+</FrameLayout>

@@ -170,6 +170,8 @@ dependencies {
     implementation(libs.facebook.shimmer)
     implementation(libs.lottie)
     implementation(libs.google.play.services.ads)
+    implementation(libs.ucrop)
+    implementation(libs.colorpicker)
 
     // Misc.
     implementation(libs.hoko.blur)

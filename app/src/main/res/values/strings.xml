@@ -206,6 +206,7 @@ Auto-renews. You can cancel anytime. After the trial ends, you’ll be charged f
     <string name="background_color">Background Color</string>
     <string name="background_services">Background services</string>
     <string name="badge_notifications">Badge Notifications</string>
+    <string name="notification_badge_warning">Notification access is required to display badge counts on app icons. Please grant notification access permission.</string>
     <string name="basic">Basic</string>
     <string name="basic_package">Basic Package</string>
     <string name="battery">Battery</string>

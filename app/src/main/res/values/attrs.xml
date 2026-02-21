@@ -8,8 +8,6 @@
     <attr name="allAppsInterimScrimAlpha" format="integer" />
     <attr name="allAppsNavBarScrimColor" format="color" />
     <attr name="allAppsScrimColor" format="color" />
-    <attr name="alphaSlider" format="boolean" />
-    <attr name="alphaSliderView" format="reference" />
     <attr name="alwaysExpand" format="boolean" />
     <attr name="ambientShadowBlur" format="dimension" />
     <attr name="ambientShadowColor" format="color" />
@@ -114,7 +112,6 @@
     <attr name="dateFontSize" format="dimension" />
     <attr name="defaultNavHost" format="boolean" />
     <attr name="demoModeLayoutId" format="reference" />
-    <attr name="density" format="integer" />
     <attr name="descriptionText" format="string" />
     <attr name="destination" format="reference" />
     <attr name="dividerId" format="integer" />
@@ -212,8 +209,6 @@
         <enum name="skipped" value="3" />
     </attr>
     <attr name="leftView" format="reference" />
-    <attr name="lightnessSlider" format="boolean" />
-    <attr name="lightnessSliderView" format="reference" />
     <attr name="lottie_applyOpacityToLayers" format="boolean" />
     <attr name="lottie_applyShadowToLayers" format="boolean" />
     <attr name="methodName" format="string" />
@@ -418,21 +413,6 @@
     <attr name="trackInsideCornerSize" format="dimension" />
     <attr name="trackStopIndicatorSize" format="dimension" />
     <attr name="transformPivotTarget" format="reference" />
-    <attr name="ucrop_artv_ratio_title" format="string" />
-    <attr name="ucrop_artv_ratio_x" format="float" />
-    <attr name="ucrop_artv_ratio_y" format="float" />
-    <attr name="ucrop_aspect_ratio_x" format="float" />
-    <attr name="ucrop_aspect_ratio_y" format="float" />
-    <attr name="ucrop_circle_dimmed_layer" format="boolean" />
-    <attr name="ucrop_dimmed_color" format="color" />
-    <attr name="ucrop_frame_color" format="color" />
-    <attr name="ucrop_frame_stroke_size" format="dimension" />
-    <attr name="ucrop_grid_color" format="color" />
-    <attr name="ucrop_grid_column_count" format="integer" />
-    <attr name="ucrop_grid_row_count" format="integer" />
-    <attr name="ucrop_grid_stroke_size" format="dimension" />
-    <attr name="ucrop_show_frame" format="boolean" />
-    <attr name="ucrop_show_grid" format="boolean" />
     <attr name="ucrop_show_oval_crop_frame" format="boolean" />
     <attr name="unselectedTextColor" format="color" />
     <attr name="unselection_text_color" format="color" />
@@ -462,10 +442,6 @@
         <enum name="none" value="0" />
         <enum name="left" value="-1" />
         <enum name="right" value="1" />
-    </attr>
-    <attr name="wheelType">
-        <enum name="FLOWER" value="0" />
-        <enum name="CIRCLE" value="1" />
     </attr>
     <attr name="widgetsTheme" format="reference" />
     <attr name="workspace" format="reference" />
