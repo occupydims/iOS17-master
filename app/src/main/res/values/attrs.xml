@@ -208,7 +208,7 @@
         <enum name="add" value="16" />
     </attr>
     <attr name="buttonPanelSideLayout" format="reference" />
-    <attr name="buttonSize" format="reference">
+    <attr name="buttonSize" format="reference" />
     <attr name="buttonStyle" format="reference" />
     <attr name="buttonStyleSmall" format="reference" />
     <attr name="buttonTint" format="color" />
@@ -369,7 +369,7 @@
     <attr name="colorPrimaryInverse" format="color" />
     <attr name="colorPrimarySurface" format="color" />
     <attr name="colorPrimaryVariant" format="color" />
-    <attr name="colorScheme" format="reference">
+    <attr name="colorScheme" format="reference" />
     <attr name="colorSecondary" format="color" />
     <attr name="colorSecondaryContainer" format="color" />
     <attr name="colorSecondaryFixed" format="color" />
@@ -412,7 +412,7 @@
     <attr name="constraint_referenced_tags" format="string" />
     <attr name="constraints" format="reference" />
     <attr name="container" format="string" />
-    <attr name="containerType" format="integer">
+    <attr name="containerType" format="integer" />
     <attr name="content" format="reference" />
     <attr name="contentDescription" format="string" />
     <attr name="contentInsetEnd" format="dimension" />
@@ -782,7 +782,7 @@
     <attr name="fontProviderAuthority" format="string" />
     <attr name="fontProviderCerts" format="reference" />
     <attr name="fontProviderFallbackQuery" format="string" />
-    <attr name="fontProviderFetchTimeout" format="integer">
+    <attr name="fontProviderFetchTimeout" format="integer" />
     <attr name="fontProviderPackage" format="string" />
     <attr name="fontProviderQuery" format="string" />
     <attr name="fontProviderSystemFontFamily" format="string" />
@@ -845,7 +845,7 @@
     <attr name="hoveredFocusedTranslationZ" format="dimension" />
     <attr name="icon" format="reference" />
     <attr name="iconAction" format="reference" />
-    <attr name="iconDisplay" format="integer">
+    <attr name="iconDisplay" format="integer" />
     <attr name="iconEndPadding" format="dimension" />
     <attr name="iconId" format="integer" />
     <attr name="iconPadding" format="dimension" />
@@ -959,29 +959,29 @@
     <attr name="layout_constrainedHeight" format="boolean" />
     <attr name="layout_constrainedWidth" format="boolean" />
     <attr name="layout_constraintBaseline_creator" format="integer" />
-    <attr name="layout_constraintBaseline_toBaselineOf" format="reference">
-    <attr name="layout_constraintBaseline_toBottomOf" format="reference">
-    <attr name="layout_constraintBaseline_toTopOf" format="reference">
+    <attr name="layout_constraintBaseline_toBaselineOf" format="reference" />
+    <attr name="layout_constraintBaseline_toBottomOf" format="reference" />
+    <attr name="layout_constraintBaseline_toTopOf" format="reference" />
     <attr name="layout_constraintBottom_creator" format="integer" />
-    <attr name="layout_constraintBottom_toBottomOf" format="reference">
-    <attr name="layout_constraintBottom_toTopOf" format="reference">
+    <attr name="layout_constraintBottom_toBottomOf" format="reference" />
+    <attr name="layout_constraintBottom_toTopOf" format="reference" />
     <attr name="layout_constraintCircle" format="reference" />
     <attr name="layout_constraintCircleAngle" format="float" />
     <attr name="layout_constraintCircleRadius" format="dimension" />
     <attr name="layout_constraintDimensionRatio" format="string" />
-    <attr name="layout_constraintEnd_toEndOf" format="reference">
-    <attr name="layout_constraintEnd_toStartOf" format="reference">
+    <attr name="layout_constraintEnd_toEndOf" format="reference" />
+    <attr name="layout_constraintEnd_toStartOf" format="reference" />
     <attr name="layout_constraintGuide_begin" format="dimension" />
     <attr name="layout_constraintGuide_end" format="dimension" />
     <attr name="layout_constraintGuide_percent" format="float" />
-    <attr name="layout_constraintHeight" format="string|dimension">
+    <attr name="layout_constraintHeight" format="string|dimension" />
     <attr name="layout_constraintHeight_default">
         <enum name="spread" value="0" />
         <enum name="wrap" value="1" />
         <enum name="percent" value="2" />
     </attr>
-    <attr name="layout_constraintHeight_max" format="dimension">
-    <attr name="layout_constraintHeight_min" format="dimension">
+    <attr name="layout_constraintHeight_max" format="dimension" />
+    <attr name="layout_constraintHeight_min" format="dimension" />
     <attr name="layout_constraintHeight_percent" format="float" />
     <attr name="layout_constraintHorizontal_bias" format="float" />
     <attr name="layout_constraintHorizontal_chainStyle">
@@ -991,17 +991,17 @@
     </attr>
     <attr name="layout_constraintHorizontal_weight" format="float" />
     <attr name="layout_constraintLeft_creator" format="integer" />
-    <attr name="layout_constraintLeft_toLeftOf" format="reference">
-    <attr name="layout_constraintLeft_toRightOf" format="reference">
+    <attr name="layout_constraintLeft_toLeftOf" format="reference" />
+    <attr name="layout_constraintLeft_toRightOf" format="reference" />
     <attr name="layout_constraintRight_creator" format="integer" />
-    <attr name="layout_constraintRight_toLeftOf" format="reference">
-    <attr name="layout_constraintRight_toRightOf" format="reference">
-    <attr name="layout_constraintStart_toEndOf" format="reference">
-    <attr name="layout_constraintStart_toStartOf" format="reference">
+    <attr name="layout_constraintRight_toLeftOf" format="reference" />
+    <attr name="layout_constraintRight_toRightOf" format="reference" />
+    <attr name="layout_constraintStart_toEndOf" format="reference" />
+    <attr name="layout_constraintStart_toStartOf" format="reference" />
     <attr name="layout_constraintTag" format="string" />
     <attr name="layout_constraintTop_creator" format="integer" />
-    <attr name="layout_constraintTop_toBottomOf" format="reference">
-    <attr name="layout_constraintTop_toTopOf" format="reference">
+    <attr name="layout_constraintTop_toBottomOf" format="reference" />
+    <attr name="layout_constraintTop_toTopOf" format="reference" />
     <attr name="layout_constraintVertical_bias" format="float" />
     <attr name="layout_constraintVertical_chainStyle">
         <enum name="spread" value="0" />
@@ -1009,14 +1009,14 @@
         <enum name="packed" value="2" />
     </attr>
     <attr name="layout_constraintVertical_weight" format="float" />
-    <attr name="layout_constraintWidth" format="string|dimension">
+    <attr name="layout_constraintWidth" format="string|dimension" />
     <attr name="layout_constraintWidth_default">
         <enum name="spread" value="0" />
         <enum name="wrap" value="1" />
         <enum name="percent" value="2" />
     </attr>
-    <attr name="layout_constraintWidth_max" format="dimension">
-    <attr name="layout_constraintWidth_min" format="dimension">
+    <attr name="layout_constraintWidth_max" format="dimension" />
+    <attr name="layout_constraintWidth_min" format="dimension" />
     <attr name="layout_constraintWidth_percent" format="float" />
     <attr name="layout_dodgeInsetEdges">
         <flag name="none" value="0x00000000" />
@@ -1270,8 +1270,8 @@
     <attr name="motionEffect_translationX" format="dimension" />
     <attr name="motionEffect_translationY" format="dimension" />
     <attr name="motionEffect_viewTransition" format="reference" />
-    <attr name="motionInterpolator" format="reference|string">
-    <attr name="motionPath" format="string">
+    <attr name="motionInterpolator" format="reference|string" />
+    <attr name="motionPath" format="string" />
     <attr name="motionPathRotate" format="float" />
     <attr name="motionProgress" format="float" />
     <attr name="motionStagger" format="float" />
@@ -1393,7 +1393,7 @@
     <attr name="pickerColorEdit" format="boolean" />
     <attr name="pickerColorEditTextColor" format="integer" />
     <attr name="pickerTitle" format="reference|string" />
-    <attr name="pivotAnchor" format="reference">
+    <attr name="pivotAnchor" format="reference" />
     <attr name="placeholderActivityName" format="string" />
     <attr name="placeholderText" format="string" />
     <attr name="placeholderTextAppearance" format="reference" />
@@ -1425,7 +1425,7 @@
     <attr name="progressBarPadding" format="dimension" />
     <attr name="progressBarStyle" format="reference" />
     <attr name="providerId" format="integer" />
-    <attr name="quantizeMotionInterpolator" format="reference|string">
+    <attr name="quantizeMotionInterpolator" format="reference|string" />
     <attr name="quantizeMotionPhase" format="float" />
     <attr name="quantizeMotionSteps" format="integer" />
     <attr name="queryBackground" format="reference" />
@@ -1622,8 +1622,8 @@
         <enum name="topToBottom" value="3" />
         <enum name="bottomToTop" value="4" />
     </attr>
-    <attr name="splitMaxAspectRatioInLandscape" format="float">
-    <attr name="splitMaxAspectRatioInPortrait" format="float">
+    <attr name="splitMaxAspectRatioInLandscape" format="float" />
+    <attr name="splitMaxAspectRatioInPortrait" format="float" />
     <attr name="splitMinHeightDp" format="integer" />
     <attr name="splitMinSmallestWidthDp" format="integer" />
     <attr name="splitMinWidthDp" format="integer" />
@@ -1930,7 +1930,7 @@
     </attr>
     <attr name="transformPivotTarget" format="reference" />
     <attr name="transitionDisable" format="boolean" />
-    <attr name="transitionEasing" format="string">
+    <attr name="transitionEasing" format="string" />
     <attr name="transitionFlags">
         <flag name="none" value="0x00000000" />
         <flag name="beginOnFirstDraw" value="0x00000001" />
@@ -1989,7 +1989,7 @@
     <attr name="waveOffset" format="float|dimension" />
     <attr name="wavePeriod" format="float" />
     <attr name="wavePhase" format="float" />
-    <attr name="waveShape" format="string">
+    <attr name="waveShape" format="string" />
     <attr name="waveVariesBy">
         <enum name="position" value="0" />
         <enum name="path" value="1" />
