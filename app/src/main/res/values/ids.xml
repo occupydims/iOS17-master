@@ -782,7 +782,6 @@
     <item type="id" name="material_clock_display" />
     <item type="id" name="material_clock_display_and_toggle" />
     <item type="id" name="material_clock_hand" />
-    <item type="id" name="material_clock_level" />
     <item type="id" name="material_clock_period_am_button" />
     <item type="id" name="material_clock_period_pm_button" />
     <item type="id" name="material_clock_period_toggle" />
@@ -854,8 +853,6 @@
     <item type="id" name="nav_function" />
     <item type="id" name="nav_host_fragment_container" />
     <item type="id" name="nav_settings" />
-    <item type="id" name="navigation_bar_item_active_indicator_view" />
-    <item type="id" name="navigation_bar_item_icon_container" />
     <item type="id" name="navigation_header_container" />
     <item type="id" name="next_button" />
     <item type="id" name="next_ic" />
@@ -1452,4 +1449,18 @@
     <item name="uninstall_app" type="id" />
     <item name="APPWIDGET_HOST_ID" type="id" />
     <item name="REQUEST_PICK_APPWIDGET" type="id" />
+    <item name="action_image_view" type="id" />
+    <item name="add" type="id" />
+    <item name="auto" type="id" />
+    <item name="dark" type="id" />
+    <item name="end" type="id" />
+    <item name="hotseat" type="id" />
+    <item name="layout" type="id" />
+    <item name="light" type="id" />
+    <item name="max_label" type="id" />
+    <item name="min_label" type="id" />
+    <item name="right" type="id" />
+    <item name="start" type="id" />
+    <item name="weather_setting_imageview" type="id" />
+    <item name="workspace" type="id" />
 </resources>

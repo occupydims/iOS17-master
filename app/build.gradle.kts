@@ -143,6 +143,7 @@ dependencies {
 
     // Support Libs
     implementation(libs.androidx.appcompat)
+    implementation(libs.google.material)
     implementation(libs.androidx.recyclerview)
     implementation(libs.androidx.localbroadcast)
 

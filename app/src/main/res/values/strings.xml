@@ -233,10 +233,6 @@ You can enable it manually by selecting a wallpaper."</string>
     <string name="bottom_work_tab_user_education_close_button">Close</string>
     <string name="bottom_work_tab_user_education_closed">Closed</string>
     <string name="bottom_work_tab_user_education_title">Find work apps here</string>
-    <string name="bottomsheet_action_collapse">Collapse the bottom sheet</string>
-    <string name="bottomsheet_action_expand">Expand the bottom sheet</string>
-    <string name="bottomsheet_drag_handle_clicked">Drag handle double-tapped</string>
-    <string name="bottomsheet_drag_handle_content_description">Drag handle</string>
     <string name="brush">Brush</string>
     <string name="btn_allow">Allow</string>
     <string name="btn_deny">Deny</string>
@@ -533,7 +529,6 @@ Delete Album &amp; Items will completely delete them and can not restore."</stri
 (Maximum 30 characters)"</string>
     <string name="enter_text">Enter text</string>
     <string name="eraser">Eraser</string>
-    <string name="error_a11y_label">Error: invalid</string>
     <string name="error_file_lagre">File cannot be over 20MB</string>
     <string name="error_loading_data">Failed to load data. Please check your connection and try again.</string>
     <string name="error_payment">Cannot retrieve package data, please try again.</string>
@@ -811,8 +806,6 @@ In the meantime, please tap the "<b>‘Repair’</b> button to get out of this s
     <string name="map_search_intent">geo:0,0?q=</string>
     <string name="market_details_id">market://details?id=</string>
     <string name="market_search_intent">market://search?c=apps</string>
-    <string name="material_hour_24h_suffix">%1$s hours</string>
-    <string name="material_slider_value">Value</string>
     <string name="max_letters">Max letters</string>
     <string name="maximun_prompt_reached">Maximum prompt length reached.</string>
     <string name="may_we_send_notifications">May we send notifications?</string>
@@ -1203,9 +1196,6 @@ OFF"</string>
     <string name="search_setting">Search Settings</string>
     <string name="search_term">Search \"%s\"</string>
     <string name="search_widgets">Search Widgets</string>
-    <string name="searchbar_scrolling_view_behavior">com.google.android.material.search.SearchBar$ScrollingViewBehavior</string>
-    <string name="searchview_clear_text_content_description">Clear text</string>
-    <string name="searchview_navigation_content_description">Back</string>
     <string name="sec">sec</string>
     <string name="secs">secs</string>
     <string name="see_all">See All</string>
@@ -1261,8 +1251,6 @@ See more"</string>
     <string name="shortcuts_menu_with_notifications_description">Shortcuts and notifications</string>
     <string name="show_less">Show Less</string>
     <string name="show_more">Show More</string>
-    <string name="side_sheet_accessibility_pane_title">Side Sheet</string>
-    <string name="side_sheet_behavior">com.google.android.material.sidesheet.SideSheetBehavior</string>
     <string name="sides">Sides</string>
     <string name="similar_to_the_actual_temperature">Similar to the actual temperature.</string>
     <string name="simple">Simple</string>
@@ -1861,4 +1849,7 @@ Click here to enable storage permission"</string>
     <string name="toast_no_room">No more room in page</string>
     <string name="app_name_maps">Maps</string>
     <string name="grant">Grant</string>
+    <string name="com.google.firebase.crashlytics_" translatable="false" />
+    <string name="firebase_database_url" translatable="false" />
+    <string name="ga_trackingId" translatable="false" />
 </resources>

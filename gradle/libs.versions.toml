@@ -34,6 +34,7 @@ build-spotless = { module = "com.diffplug.spotless:spotless-plugin-gradle", vers
 dagger-compiler = { module = "com.google.dagger:dagger-compiler", version.ref = "dagger" }
 dagger-android-processor = { module = "com.google.dagger:dagger-android-processor", version.ref = "dagger" }
 
+google-material = "com.google.android.material:material:1.11.0"
 greenrobot-eventbus = "org.greenrobot:eventbus:3.1.1"
 hoko-blur = "io.github.hokofly:hoko-blur:1.4.0"
 
