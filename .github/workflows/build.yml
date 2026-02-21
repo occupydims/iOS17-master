@@ -37,12 +37,13 @@ jobs:
           java-version: '11'
           distribution: 'temurin'
 
-      - name: Cache Gradle dependencies
+      - name: Cache Gradle dependencies and build cache
         uses: actions/cache@v4
         with:
           path: |
             ~/.gradle/caches
             ~/.gradle/wrapper
+            ~/.gradle/build-cache
           key: gradle-${{ runner.os }}-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties', '**/libs.versions.toml') }}
           restore-keys: |
             gradle-${{ runner.os }}-
@@ -63,7 +64,7 @@ jobs:
           echo "appendDebugSuffix=false" >> local.properties
 
       - name: Build release APKs (arm64-only)
-        run: ./gradlew assembleApiQRelease assembleApiRRelease assembleApiSRelease
+        run: ./gradlew assembleApiQRelease assembleApiRRelease assembleApiSRelease --build-cache --gradle-user-home ~/.gradle
 
       - name: Generate version info
         id: version
